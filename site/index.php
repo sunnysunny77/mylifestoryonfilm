@@ -131,7 +131,7 @@
 
                 <hr class="my-3">
 
-                <a href="mail:eg@example.com">
+                <a href="mailto:eg@example.com">
 
                   eg@example.com
 
