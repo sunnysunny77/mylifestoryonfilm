@@ -40,5 +40,15 @@
         address span {
             display: block;
         }
+        .header-brochour-cta {
+            i {
+                font-size: 18px;
+            }
+            font-size: 16.5px;
+            a,
+            address {
+                letter-spacing: 0.04em;
+            }
+        }
     }
 }

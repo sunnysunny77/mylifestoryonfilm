@@ -95,7 +95,7 @@
 
             </h2>
 
-            <div class="row justify-content-center justify-content-md-evenly">
+            <div class="row header-brochour-cta justify-content-center justify-content-md-evenly">
 
               <div class="col-39 col-sm-16 col-xl-12 py-5 px-sm-7 px-md-10">
 
