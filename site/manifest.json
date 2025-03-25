@@ -1,9 +1,9 @@
 {
-    "name": "Template",
-    "short_name": "Template",
+    "name": "My Life Story On Film",
+    "short_name": "My Life Story On Film",
     "start_url": "/",
-    "background_color": "#FFC0CB",
-    "theme_color": "#FFC0CB",
+    "background_color": "#005133",
+    "theme_color": "#005133",
     "display": "standalone",
     "icons": [       
         {

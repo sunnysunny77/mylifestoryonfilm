@@ -1,5 +1,5 @@
-const version = 1;
-const cacheName = `template-v${version}`;
+const version = 10000;
+const cacheName = `mylifestoryonfilm-v${version}`;
 
 const resources = [
   "./",
