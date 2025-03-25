@@ -21,7 +21,10 @@
         line-height: 1.5;
     }
     .header-brochure-side-column {
-        background-color: $tertiary;
+        background-color: transparent;
+        @include min_md {
+            background-color: $tertiary;
+        }
     }
     .header-brochour-aside {
         background-color: $primary;
@@ -30,7 +33,9 @@
             color: $white;
             text-decoration: underline;
             text-decoration-color: $white;
-            transition: text-decoration-color 0.3s ease-in-out, color 0.3s ease-in-out;
+            transition:
+                text-decoration-color 0.3s ease-in-out,
+                color 0.3s ease-in-out;
             text-underline-offset: 5px;
             &:hover {
                 color: $light;

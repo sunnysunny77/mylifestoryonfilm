@@ -11,13 +11,15 @@
 // import "bootstrap/js/dist/tooltip";
 
 import AOS from "aos";
+import { slider_nav } from "./slider_nav.js";
 import { service_worker } from "./service_worker.js";
 import { events } from "./utillites.js";
 import { fallback } from "./fallback.js";
 
 events(window, "load", () => {
 
-    AOS.init({once: true}); 
-    fallback();
-    service_worker();
+  AOS.init({once: true});
+  slider_nav();
+  fallback();
+  service_worker();
 });

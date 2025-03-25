@@ -7,6 +7,21 @@ body {
     font-family: $font;
 }
 
+.hidden {
+    width: 0;
+    height: 0;
+    display: block;
+    overflow: hidden;
+}
+
 .primary-border {
     border: 3px solid $primary;
+}
+
+.secondary-border-top {
+    border-top: 2px solid $secondary;
+}
+
+.color-primary {
+    color: $primary;
 }

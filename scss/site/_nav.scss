@@ -1,0 +1,80 @@
+.navigation {
+    background-color: transparent;
+    position: relative;
+    z-index: 999;
+    button.navbar-toggler {
+        outline: none;
+        border: none;
+        box-shadow: none;
+        background-color: initial;
+    }
+}
+
+.slider_nav-navbar-toggler {
+    .slider_nav-bar {
+        width: 24px;
+        height: 3px;
+        background-color: $primary;
+        margin: 4px 0;
+        border-radius: 1.5px;
+        will-change: transform;
+        @include min_md {
+            background-color: $white;
+        }
+    }
+}
+
+.navbar-collapse {
+    background-color: $tertiary;
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: transform 0.5s cubic-bezier(0.66, 0.01, 0.27, 0.84);
+    will-change: transform;
+    transform: translateX(0%);
+    &.has-collapsed {
+        transform: translateX(-100%);
+    }
+    a {
+        color: $primary;
+        text-decoration: underline;
+        text-decoration-color: transparent;
+        transition:
+            opacity 0.3s ease-in-out,
+            text-decoration-color 0.3s ease-in-out;
+        opacity: 1;
+        will-change: opacity, text-decoration-color;
+        font-size: 19px;
+        letter-spacing: 0.02em;
+        &:hover {
+            opacity: 0.8;
+            text-decoration-color: $primary;
+        }
+    }
+    a.active {
+        text-decoration: underline;
+        text-decoration-color: $primary;
+        text-underline-offset: 5px;
+    }
+    i {
+        color: $primary;
+        font-size: 19px;
+    }
+    .color-primary {
+        letter-spacing: 0.02em;
+        font-size: 19px;
+    }
+    ul li ul i {
+        font-size: 22px;
+        color: $primary;
+        transition: opacity 0.3s ease-in-out;
+        will-change: opacity;
+        opacity: 1;
+        &:hover {
+            opacity: 0.67;
+        }
+    }
+}
