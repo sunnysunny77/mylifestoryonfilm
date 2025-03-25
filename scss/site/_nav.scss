@@ -23,6 +23,9 @@
             background-color: $white;
         }
     }
+    &:disabled {
+        cursor: pointer;
+    }
 }
 
 .navbar-collapse {
