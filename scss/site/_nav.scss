@@ -1,13 +1,8 @@
-.navigation {
-    background-color: transparent;
-    position: relative;
-    z-index: 999;
-    button.navbar-toggler {
-        outline: none;
-        border: none;
-        box-shadow: none;
-        background-color: initial;
-    }
+button.navbar-toggler {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background-color: initial;
 }
 
 .slider_nav-navbar-toggler {
@@ -18,9 +13,24 @@
         background-color: $primary;
         margin: 4px 0;
         border-radius: 1.5px;
-        will-change: transform;
+        will-change: transform, opacity;
+        transition:
+            transform 0.375s,
+            opacity 0.375s;
+        opacity: 1;
         @include min_md {
             background-color: $white;
+        }
+    }
+    &.has-collapsed {
+        .slider_nav-bar-1 {
+            transform: translate(0, 7px) rotate(-45deg);
+        }
+        .slider_nav-bar-2 {
+            opacity: 0;
+        }
+        .slider_nav-bar-3 {
+            transform: translate(0, -7px) rotate(45deg);
         }
     }
     &:disabled {
@@ -51,8 +61,9 @@
             text-decoration-color 0.3s ease-in-out;
         opacity: 1;
         will-change: opacity, text-decoration-color;
-        font-size: 19px;
+        font-size: 18px;
         letter-spacing: 0.02em;
+        font-weight: 300;
         &:hover {
             opacity: 0.8;
             text-decoration-color: $primary;
@@ -65,14 +76,15 @@
     }
     i {
         color: $primary;
-        font-size: 19px;
+        font-size: 18px;
     }
     .color-primary {
         letter-spacing: 0.02em;
-        font-size: 19px;
+        font-size: 18px;
+        font-weight: 300;
     }
     ul li ul i {
-        font-size: 22px;
+        font-size: 20px;
         color: $primary;
         transition: opacity 0.3s ease-in-out;
         will-change: opacity;
@@ -80,5 +92,10 @@
         &:hover {
             opacity: 0.67;
         }
+    }
+    .navbar-toggler {
+        position: absolute;
+        top: 0;
+        right: 0;
     }
 }

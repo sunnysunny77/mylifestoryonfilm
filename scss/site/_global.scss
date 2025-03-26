@@ -5,6 +5,7 @@ html {
 body {
     margin: 0;
     font-family: $font;
+    overflow: hidden;
 }
 
 .hidden {
@@ -19,9 +20,30 @@ body {
 }
 
 .secondary-border-top {
-    border-top: 2px solid $secondary;
+    border-top: 1.5px solid $secondary;
 }
 
 .color-primary {
     color: $primary;
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+.os-theme-body {
+    --os-size: 7px;
+    &.has-right {
+        z-index: 997;
+    }
+}
+
+.os-theme-body .os-scrollbar-handle {
+    background: $secondary-1;
+    border-radius: 5px;
+    height: 90px;
+}
+
+.os-theme-body .os-scrollbar-track {
+    background: transparent;
 }

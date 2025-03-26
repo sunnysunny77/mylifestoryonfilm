@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-overlayscrollbars-initialize>
 <head>
   <script src="./js/preload.js"></script>
   <meta charset="utf-8" />
@@ -19,103 +19,131 @@
 
   <div class="overflow-hidden">
 
-    <div class="navbar-collapse has-collapsed d-flex justify-content-center align-items-center">
+    <div class="navbar-collapse has-collapsed">
 
-      <div class="row w-100 justify-content-evenly">
+      <div class="d-flex justify-content-end">
 
-        <ul class="col-42 col-sm-16 col-lg-8 list-unstyled my-4 p-3">
+        <button class="slider_nav-navbar-toggler navbar-toggler p-5">
 
-          <li class="ms-4">
+          <div>
 
-            <i class="fa-solid fa-paperclip"></i>
+            <div class="slider_nav-bar slider_nav-bar-1"></div>
+            <div class="slider_nav-bar slider_nav-bar-2"></div>
+            <div class="slider_nav-bar slider_nav-bar-3"></div>
 
-          </li>
+          </div>
 
-          <li class="mt-2">
+        </button>
 
-            <ul class="list-unstyled secondary-border-top ps-2">
+      </div>
 
-              <li class="mt-3 mb-1">
+      <div class="h-100 d-flex justify-content-center align-items-center">
 
-                <a class="active" href="./">Home</a>
+        <nav class="row w-100 justify-content-center justify-content-sm-around justify-content-xxl-evenly px-xl-10 pb-xl-9">
 
-              </li>
+          <ul class="col-42 col-sm-20 col-lg-16 col-xxl-11 list-unstyled m-0 p-4">
 
-              <li class="mb-1">
+            <li class="ms-4">
 
-                <a href="./information.php">Information</a>
+              <i class="fa-solid fa-paperclip"></i>
 
-              </li>
+            </li>
 
-              <li>
+            <li class="mt-2">
 
-                <a href="./contact">Contact</a>
+              <ul class="list-unstyled secondary-border-top ps-2">
 
-              </li>
+                <li class="mt-3">
 
-            </ul>
+                  <a class="active" href="./">Home</a>
 
-          </li>
+                </li>
 
-          <li class="mt-2">
+                <li>
 
-            <ul class="list-unstyled secondary-border-top ps-2">
+                  <a href="./information.php">Information</a>
 
-              <li class="mt-3 mb-1">
+                </li>
 
-                <a href="tel:0456965365">
+                <li>
 
-                  Phone
+                  <a href="./contact">Contact</a>
 
-                </a>
+                </li>
 
-              </li>
+              </ul>
 
-              <li class="mb-1">
+            </li>
 
-                <a href="mailto:eg@example.com">
+            <li class="mt-3">
 
-                  Mail
+              <ul class="list-unstyled secondary-border-top ps-2">
 
-                </a>
+                <li class="mt-3">
 
-              </li>
+                  <a href="tel:0456965365">
 
-            </ul>
+                    Phone
 
-          </li>
+                  </a>
 
-        </ul>
+                </li>
 
-        <ul class="col-42 col-sm-16 col-lg-8 list-unstyled my-4 p-3">
+                <li>
 
-          <li class="color-primary ms-4">
+                  <a href="mailto:eg@example.com">
 
-            Socials
+                    Mail
 
-          </li>
+                  </a>
 
-          <li class="mt-2">
+                </li>
 
-            <ul class="list-unstyled secondary-border-top ps-2">
+              </ul>
 
-              <li class="mt-3 mb-1">
+            </li>
 
-                <i class="fa-brands fa-square-facebook"></i>
+          </ul>
 
-              </li>
+          <ul class="col-42 col-sm-16 col-xl-10 col-xxl-8 list-unstyled mb-0 mt-2 p-4">
 
-              <li class="mb-1">
+            <li class="color-primary ms-4">
 
-                <i class="fa-brands fa-linkedin"></i>
+              Socials
 
-              </li>
+            </li>
 
-            </ul>
+            <li class="mt-2">
 
-          </li>
+              <ul class="list-unstyled secondary-border-top ps-2">
 
-        </ul>
+                <li class="mt-4">
+
+                  <a class="d-block mt-1" href="#">
+
+                    <i class="fa-brands fa-square-facebook"></i>
+
+                  </a>
+
+                </li>
+
+                <li class="mt-2">
+
+                  <a class="d-block mt-1" href="#">
+
+                    <i class="fa-brands fa-linkedin"></i>
+
+                  </a>
+
+                </li>
+
+              </ul>
+
+            </li>
+
+          </ul>
+
+        </nav>
 
       </div>
 
@@ -127,29 +155,25 @@
 
     <div class="row justify-content-between">
 
-      <div class="col-48 col-md-14 header-brochure-side-column">
+      <div data-aos="fade-right" class="col-48 col-md-14 header-brochure-side-column">
 
-        <nav class="navigation">
-
-          <button class="col-auto slider_nav-navbar-toggler navbar-toggler px-3 py-4">
+          <button class="slider_nav-navbar-toggler navbar-toggler p-5">
 
             <div>
 
-              <div class="slider_nav-bar"></div>
-              <div class="slider_nav-bar"></div>
-              <div class="slider_nav-bar"></div>
+              <div class="slider_nav-bar slider_nav-bar-1"></div>
+              <div class="slider_nav-bar slider_nav-bar-2"></div>
+              <div class="slider_nav-bar slider_nav-bar-3"></div>
 
             </div>
 
           </button>
 
-        </nav>
-
       </div>
 
-      <div id="skip" class="col-48 col-md-30 px-8 pt-12">
+      <div data-aos="fade-left" id="skip" class="col-48 col-md-34 bg-white pt-12">
 
-        <div class="row">
+        <div class="row pe-md-2">
 
           <div class="col-42">
 
@@ -171,9 +195,9 @@
 
           </div>
 
-          <div class="col-42 pb-10">
+          <div class="col-42 pb-11">
 
-            <p class="text-end">
+            <p class="text-end mb-1">
 
               SHARE YOUR MEMORIES
 
@@ -181,25 +205,29 @@
 
           </div>
 
-          <div class="col-48 pb-10">
+          <div class="row justify-content-center justify-content-md-end pe-md-8">
 
-            <div class="row justify-content-between">
+            <div class="col-42 col-md-41 pb-10">
 
-              <div class="col-14 primary-border p-3 p-sm-4">
+              <div class="row justify-content-between">
 
-                <img src="./images/outside.webp" alt="Mother and son walking" width="300" height="300">
+                <div class="col-14 primary-border p-3 p-sm-4">
 
-              </div>
+                  <img src="./images/outside.webp" alt="Mother and son walking" width="300" height="300">
 
-              <div class="col-14 primary-border p-3 p-sm-4">
+                </div>
 
-                <img src="./images/groovy.webp" alt="People having a groovy time" width="300" height="300">
+                <div class="col-14 primary-border p-3 p-sm-4">
 
-              </div>
+                  <img src="./images/groovy.webp" alt="People having a groovy time" width="300" height="300">
 
-              <div class="col-14 primary-border p-3 p-sm-4">
+                </div>
 
-                <img src="./images/yoga.webp" alt="People doing yoga" width="300" height="300">
+                <div class="col-14 primary-border p-3 p-sm-4">
+
+                  <img src="./images/yoga.webp" alt="People doing yoga" width="300" height="300">
+
+                </div>
 
               </div>
 
@@ -211,17 +239,17 @@
 
       </div>
 
-      <div class="col-48 header-brochour-aside py-9 px-md-8">
+      <div data-aos="fade-up" class="col-48 header-brochour-aside py-9 px-md-8">
 
-        <h2 class="mb-5 mt-7 ms-7 ms-md-10">
+        <h2 class="mb-5 mt-7 ms-7 ms-xl-10 ms-xxl-14">
 
           Get in touch
 
         </h2>
 
-        <div class="row header-brochour-cta justify-content-center justify-content-md-evenly">
+        <div data-aos="fade-left" class="row header-brochour-cta justify-content-center justify-content-sm-around justify-content-xxl-evenly">
 
-          <div class="col-39 col-sm-16 col-xl-12 py-5 px-sm-7 px-md-10">
+          <div class="col-39 col-sm-16 col-xxl-12 py-5 px-sm-7 px-xxl-10">
 
             <i class="fa-solid fa-location-dot"></i>
 
@@ -235,29 +263,37 @@
 
           </div>
 
-          <div class="col-39 col-sm-16 col-xl-12 py-5 px-sm-7 px-md-10">
-
-            <i class="fa-solid fa-phone"></i>
+          <div class="col-39 col-sm-12 col-xxl-8 py-5 px-sm-7">
 
             <hr class="my-3">
 
-            <a href="tel:0456965365">
+            <a class="d-block" href="tel:0456965365">
 
-              0456965365
+              Phone
+
+            </a>
+
+            <a class="d-block" href="mailto:eg@example.com">
+
+              Mail
 
             </a>
 
           </div>
 
-          <div class="col-39 col-sm-16 col-xl-12 py-5 px-sm-7 px-md-10">
-
-            <i class="fa-solid fa-envelope"></i>
+          <div class="col-39 col-sm-12 col-xxl-8 py-5 px-sm-7">
 
             <hr class="my-3">
 
-            <a href="mailto:eg@example.com">
+            <a class="d-block mt-3" href="#">
 
-              eg@example.com
+              <i class="fa-brands fa-square-facebook"></i>
+
+            </a>
+
+            <a class="d-block mt-1" href="#">
+
+              <i class="d-block fa-brands fa-linkedin"></i>
 
             </a>
 
@@ -272,6 +308,11 @@
   </div>
 
   <main>
+
+    Growing up, I only saw my grandparents twice a year and would beg to hear their stories whenever I got the chance to be with them. My grandfather was candid and loved to laugh about his wild misadventures, like being stuck on top of a train car during the great Kansas City flood of 1951. Or how when he was in his 20s, he drove Elvis Presley through Germany.
+    My grandmother was more demure, preferring to tell stories about my mother and uncles, but only when prompted. At 16, she was crowned the Watermelon Queen of Georgia and had her picture taken with the president in a dress she sewed herself.
+    I wouldn’t have known any of these unique stories had I not asked questions, and knowing what questions to ask elderly loved ones isn’t always easy. Here are some interesting topics to talk about with seniors and questions to help you bridge the generational gap with your older loved ones:
+
   </main>
 
   <script src="./js/app.min.js" defer></script>

@@ -1,13 +1,12 @@
 import { events } from "./utillites.js";
+import { OverlayScrollbars } from "overlayscrollbars";
 
 export const slider_nav = () => {
 
-  const navigation = document.querySelector(".navigation");
-  const navbar_toggler = document.querySelector(".navbar-toggler");
+  const navbar_toggler = document.querySelectorAll(".navbar-toggler");
   const navbar_collapse = document.querySelector(".navbar-collapse");
 
   if (
-    !navigation ||
     !navbar_toggler ||
     !navbar_collapse
   ) {
@@ -17,35 +16,43 @@ export const slider_nav = () => {
 
   let has_collapsed = true;
 
-  events(navigation, "click", () => {
+  OverlayScrollbars(navbar_collapse, {
+    overflow: {
+      x: "hidden",
+      y: "scroll",
+    },
+    scrollbars: {
+      theme: "os-theme-body",
+  }});
 
-    navbar_toggler.disabled = "true";
+  for (const index of navbar_toggler) {
 
-    has_collapsed = !has_collapsed;
+    events(index , "click", () => {
 
-    Object.assign(navbar_toggler.children[0].children[0].style, {
+      index.disabled = "true";
+      has_collapsed = !has_collapsed;
+      navbar_toggler[0].classList.toggle("has-collapsed");
+      navbar_toggler[1].classList.toggle("has-collapsed");
+      navbar_collapse.classList.toggle("has-collapsed");
+      has_collapsed ? window.osInst.options({
+        overflow: {
+          x: "hidden",
+          y: "scroll",
+        },
+        scrollbars: {
+          theme: "os-theme-body",
+      }}) : window.osInst.options({
+        overflow: {
+          x: "hidden",
+          y: "hidden",
+        },
+        scrollbars: {
+          theme: "os-theme-body",
+      }});
+      setTimeout(() => {
 
-      transition: "transform 0.375s",
-      transform: has_collapsed ? "none" : "translate(0, 7px) rotate(-45deg)",
+        index.disabled = "";
+      }, 500);
     });
-
-    Object.assign(navbar_toggler.children[0].children[1].style, {
-
-      transition: "opacity 0.375s",
-      opacity: has_collapsed ? 1 : 0,
-    });
-
-    Object.assign(navbar_toggler.children[0].children[2].style, {
-
-      transition: "transform 0.375s",
-      transform: has_collapsed ? "none" : "translate(0, -7px) rotate(45deg)",
-    });
-
-    navbar_collapse.classList.toggle("has-collapsed");
-    
-    setTimeout(() => {
-
-      navbar_toggler.disabled = "";
-    }, 500);
-  });
+  };
 };
