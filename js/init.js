@@ -12,5 +12,8 @@ export const init = () => {
       theme: "os-theme-body",
   }});
 
-  AOS.init({once: true});
+  AOS.init({
+    once: true,
+    offset: -800,
+  });
 };

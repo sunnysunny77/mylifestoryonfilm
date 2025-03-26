@@ -43,6 +43,11 @@
         address span {
             display: block;
         }
+        .font{
+            fill: $white;
+            font-size: 20px;
+            font-weight: 500;;
+        }
         .header-brochour-cta {
             font-size: 16.5px;
             a,

@@ -43,7 +43,7 @@
 
           <ul class="col-42 col-sm-20 col-lg-16 col-xxl-11 list-unstyled m-0 p-4">
 
-            <li class="ms-4">
+            <li class="ms-2 ms-sm-4">
 
               <i class="fa-solid fa-paperclip"></i>
 
@@ -107,7 +107,7 @@
 
           <ul class="col-42 col-sm-16 col-xl-10 col-xxl-8 list-unstyled mb-0 mt-2 p-4">
 
-            <li class="color-primary ms-4">
+            <li class="color-primary ms-2 ms-sm-4">
 
               Socials
 
@@ -171,7 +171,7 @@
 
       </div>
 
-      <div data-aos="fade-left" id="skip" class="col-48 col-md-34 bg-white pt-12">
+      <div data-aos="fade-left" id="skip" class="col-48 col-md-34 bg-white pt-10 pt-md-12">
 
         <div class="row pe-md-2">
 
@@ -211,19 +211,19 @@
 
               <div class="row justify-content-between">
 
-                <div class="col-14 primary-border p-3 p-sm-4">
+                <div class="col-14 primary-border p-2 p-sm-4">
 
                   <img src="./images/outside.webp" alt="Mother and son walking" width="300" height="300">
 
                 </div>
 
-                <div class="col-14 primary-border p-3 p-sm-4">
+                <div class="col-14 primary-border p-2 p-sm-4">
 
                   <img src="./images/groovy.webp" alt="People having a groovy time" width="300" height="300">
 
                 </div>
 
-                <div class="col-14 primary-border p-3 p-sm-4">
+                <div class="col-14 primary-border p-2 p-sm-4">
 
                   <img src="./images/yoga.webp" alt="People doing yoga" width="300" height="300">
 
@@ -241,11 +241,33 @@
 
       <div data-aos="fade-up" class="col-48 header-brochour-aside py-9 px-md-8">
 
-        <h2 class="mb-5 mt-7 ms-7 ms-xxl-14">
+        <svg class="mb-5 mt-7 ms-7 ms-xxl-14" data-aos="fade-up" aria-label="My Life Story On Film" viewBox="0 0 100 100" width="70" height="70">
 
-          Get in touch
+          <defs>
 
-        </h2>
+              <path
+
+                id="circle"
+                d="M 50, 50
+                m -37, 0
+                a 37,37 0 1,1 74,0
+                a 37,37 0 1,1 -74,0"
+
+              />
+
+          </defs>
+
+          <text class="font">
+
+              <textPath href="#circle">
+
+                My -- Life -- Story ---
+
+              </textPath>
+
+          </text>
+
+        </svg>
 
         <div data-aos="fade-left" class="row header-brochour-cta justify-content-center justify-content-sm-around justify-content-xxl-evenly">
 
