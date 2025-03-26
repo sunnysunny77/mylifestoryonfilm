@@ -241,7 +241,7 @@
 
       <div data-aos="fade-up" class="col-48 header-brochour-aside py-9 px-md-8">
 
-        <h2 class="mb-5 mt-7 ms-7 ms-xl-10 ms-xxl-14">
+        <h2 class="mb-5 mt-7 ms-7 ms-xxl-14">
 
           Get in touch
 
