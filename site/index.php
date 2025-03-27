@@ -259,7 +259,7 @@
 
           <div data-aos="fade-left" class="col-39 col-xl-32">
 
-            <p class="text-center text-xl-start pe-xl-9">
+            <p class="text-center text-xl-start pe-xl-9 ps-xl-5">
 
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat, leo ac varius ullamcorper, lacus purus venenatis ex, eget dictum est turpis sit amet nisl. Ut vulputate lorem at justo ornare imperdiet. Suspendisse potenti. Aenean at viverra purus, in laoreet purus. Phasellus erat elit, volutpat eget sollicitudin vitae, pellentesque sit amet nibh.
 
