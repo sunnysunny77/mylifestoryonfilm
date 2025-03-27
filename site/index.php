@@ -151,7 +151,7 @@
 
   </div>
 
-  <div class="container-fluid header-brochure">
+  <header class="container-fluid header-brochure">
 
     <div class="row justify-content-between">
 
@@ -239,25 +239,83 @@
 
       </div>
 
-      <div data-aos="fade-up" class="col-48 header-brochour-aside py-9 px-md-8">
+    </div>
 
-        <svg class="mb-5 mt-7 ms-7 ms-xxl-14" data-aos="fade-up" aria-label="My Life Story On Film" viewBox="0 0 100 100" width="70" height="70">
+    <div data-aos="fade-up" class="container-flud">
 
-          <defs>
+      <a href="#" class="header-brochour-cta py-10 px-lg-12">
 
-              <path
+        <div class="row justify-content-center">
 
-                id="circle"
-                d="M 50, 50
-                m -37, 0
-                a 37,37 0 1,1 74,0
-                a 37,37 0 1,1 -74,0"
+          <div class="col-39 col-xl-48">
 
-              />
+            <h2 class="mb-9">
 
-          </defs>
+              Get together
 
-          <text class="font">
+            </h2>
+
+          </div>
+
+          <div data-aos="fade-left" class="col-39 col-xl-32">
+
+            <p class="text-center text-xl-start pe-xl-9">
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat, leo ac varius ullamcorper, lacus purus venenatis ex, eget dictum est turpis sit amet nisl. Ut vulputate lorem at justo ornare imperdiet. Suspendisse potenti. Aenean at viverra purus, in laoreet purus. Phasellus erat elit, volutpat eget sollicitudin vitae, pellentesque sit amet nibh.
+
+            </p>
+
+          </div>
+
+          <div data-aos="fade-left" class="col-39 col-xl-16 d-flex justify-content-center justify-content-xl-end align-items-end mt-8 mt-xl-0">
+
+            <b class="px-7 py-4">
+
+              Schedule a constellation
+
+              <i class="fa-solid fa-circle-arrow-right ms-4"></i>
+
+            </b>
+
+          </div>
+
+        </div>
+
+      </a>
+
+    </div>
+
+  </header>
+
+  <main>
+
+  </main>
+
+  <footer class="container-fluid pb-9 pt-11 mt-9">
+
+    <div class="container-sm">
+
+      <div class="row justify-content-around justify-content-sm-between">
+
+        <div class="col-auto mt-7 ms-sm-2">
+
+          <svg aria-label="My Life Story On Film" viewBox="0 0 100 100" width="70" height="70">
+
+            <defs>
+
+                <path
+
+                  id="circle"
+                  d="M 50, 50
+                  m -37, 0
+                  a 37,37 0 1,1 74,0
+                  a 37,37 0 1,1 -74,0"
+
+                />
+
+            </defs>
+
+            <text class="font">
 
               <textPath href="#circle">
 
@@ -265,59 +323,43 @@
 
               </textPath>
 
-          </text>
+            </text>
 
-        </svg>
+          </svg>
 
-        <div data-aos="fade-left" class="row header-brochour-cta justify-content-center justify-content-sm-around justify-content-xxl-evenly">
+        </div>
 
-          <div class="col-39 col-sm-16 col-xxl-12 py-5 px-sm-7 px-xxl-10">
+        <div class="col-21 mt-7">
 
-            <i class="fa-solid fa-location-dot"></i>
+          <hr class="mb-3">
 
-            <hr class="my-3">
+          <div class="row justify-content-between">
 
-            <address>
+            <div class="col-48">
 
-              <span> 1 More Av Warwich </span> <span> 6088 </span> <span> WA PERTH </span>
+              <ul class="list-unstyled text-sm-end text-lg-start mb-0 me-sm-2 ms-lg-2 me-lg-0 mb-9">
 
-            </address>
+                <li class="mb-1">
 
-          </div>
+                  <a class="active" href="./">Home</a>
 
-          <div class="col-39 col-sm-12 col-xxl-8 py-5 px-sm-7">
+                </li>
 
-            <hr class="my-3">
+                <li>
 
-            <a class="d-block" href="tel:0456965365">
+                  <a href="./information.php">Information</a>
 
-              Phone
+                </li>
 
-            </a>
+                <li>
 
-            <a class="d-block" href="mailto:eg@example.com">
+                  <a href="./contact">Contact</a>
 
-              Mail
+                </li>
 
-            </a>
+              </ul>
 
-          </div>
-
-          <div class="col-39 col-sm-12 col-xxl-8 py-5 px-sm-7">
-
-            <hr class="my-3">
-
-            <a class="d-block mt-3" href="#">
-
-              <i class="fa-brands fa-square-facebook"></i>
-
-            </a>
-
-            <a class="d-block mt-1" href="#">
-
-              <i class="d-block fa-brands fa-linkedin"></i>
-
-            </a>
+            </div>
 
           </div>
 
@@ -325,17 +367,101 @@
 
       </div>
 
+      <div class="row justify-content-center justify-content-sm-between">
+
+        <div class="col-39 col-sm-17 mb-6 mb-sm-0">
+
+          <i class="fa-solid fa-location-dot"></i>
+
+          <hr class="my-3">
+
+          <address>
+
+            <span> 1 More Av Warwich </span> <span> 6088 </span> <span> WA PERTH </span>
+
+          </address>
+
+        </div>
+
+        <div class="col-39 col-sm-21">
+
+          <div class="row justify-content-center justify-content-sm-between">
+
+            <div class="col-48 col-lg-16">
+
+              <hr class="my-3">
+
+              <ul class="list-unstyled text-sm-end text-lg-start mb-0 mb-6 mb-sm-0 me-sm-2 ms-lg-2 me-lg-0">
+
+                <li>
+
+                  <a class="d-block" href="tel:0456965365">
+
+                    Phone
+
+                  </a>
+
+                </li>
+
+                <li>
+
+                  <a class="d-block" href="mailto:eg@example.com">
+
+                    Mail
+
+                  </a>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+            <div class="col-48 col-lg-16">
+
+              <hr class="my-3">
+
+              <ul class="list-unstyled d-flex justify-content-sm-end justify-content-lg-start mb-0 me-sm-2 ms-lg-2 me-lg-0">
+
+                <li>
+
+                  <a href="#">
+
+                    <i class="fa-brands fa-square-facebook me-2"></i>
+
+                  </a>
+
+                </li>
+
+                <li>
+
+                  <a  href="#">
+
+                    <i class="fa-brands fa-linkedin"></i>
+
+                  </a>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-39 col-sm-48 d-flex justify-content-center align-items-center mt-6 mt-sm-10">
+
+          <p><i class="fa-regular fa-copyright" ></i>&nbsp;<?php echo date("Y"); ?></p>
+
+        </div>
+
+      </div>
+
     </div>
 
-  </div>
-
-  <main>
-
-    Growing up, I only saw my grandparents twice a year and would beg to hear their stories whenever I got the chance to be with them. My grandfather was candid and loved to laugh about his wild misadventures, like being stuck on top of a train car during the great Kansas City flood of 1951. Or how when he was in his 20s, he drove Elvis Presley through Germany.
-    My grandmother was more demure, preferring to tell stories about my mother and uncles, but only when prompted. At 16, she was crowned the Watermelon Queen of Georgia and had her picture taken with the president in a dress she sewed herself.
-    I wouldn’t have known any of these unique stories had I not asked questions, and knowing what questions to ask elderly loved ones isn’t always easy. Here are some interesting topics to talk about with seniors and questions to help you bridge the generational gap with your older loved ones:
-
-  </main>
+  <footer>
 
   <script src="./js/app.min.js" defer></script>
 
