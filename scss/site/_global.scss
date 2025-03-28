@@ -31,6 +31,10 @@ body {
     background-color: $white;
 }
 
+.bg-medium {
+    background-color: $medium;
+}
+
 .os-theme-body {
     --os-size: 7px;
     &.has-right {

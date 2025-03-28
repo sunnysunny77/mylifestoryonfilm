@@ -241,9 +241,11 @@
 
     </div>
 
-    <div data-aos="fade-up" class="container-flud">
+    <div data-aos="fade-up" class="container-flud positon-relative">
 
       <a href="#" class="header-brochour-cta py-10 px-lg-12">
+
+        <div class="shapes-1 position-absolute"></div>
 
         <div class="row justify-content-center">
 
@@ -257,7 +259,7 @@
 
           </div>
 
-          <div data-aos="fade-left" class="col-39 col-xl-32">
+          <div data-aos="fade-left" class="col-39 col-xl-28">
 
             <p class="text-center text-xl-start pe-xl-9 ps-xl-5">
 
@@ -287,11 +289,73 @@
 
   </header>
 
-  <main>
+  <main data-aos="fade-up">
+
+    <div class="text-video container-sm">
+
+      <div class="row justify-content-center">
+
+        <div class="col-39 mt-13 mb-10">
+
+          <h2 class="text-center m-0">
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eleifend viverra odio eu placerat.
+
+          </h2>
+
+        </div>
+
+        <div class="col-39 col-sm-48">
+
+          <div class="row justify-content-sm-between align-items-end">
+
+            <div class="col-48 col-lg-18 video-card bg-medium">
+
+              <b class="d-block p-3">
+
+                Lorem ipsum dolor sit amet
+
+              </b>
+
+              <p class="mb-9 p-5">
+
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam pretium ipsum quis sapien ultricies, ut hendrerit odio porttitor. Nullam eleifend mi magna, in congue massa varius nec. Pellentesque iaculis nisi quis tincidunt consectetur.
+
+                <span class="d-block mt-2">per inceptos</span>
+
+              </p>
+
+            </div>
+
+            <div class="col-48 col-lg-24 video-container position-relative">
+
+              <video poster="./images/growing-up.webp" preload="auto" class="play" playsinline>
+
+                <source src="./video/sample.mp4" type="video/mp4">
+
+              </video>
+
+              <div class="controlls d-flex justify-content-center align-items-center">
+
+                <img class="play-video has-play" alt="play" width="40" height="40" src="./images/play.webp" />
+
+                <img class="pause-video" alt="pause" width="40" height="40" src="./images/pause.webp" />
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
 
   </main>
 
-  <footer class="container-fluid pb-9 pt-11 mt-9">
+  <footer class="container-fluid pb-9 pt-11 mt-13">
 
     <div class="container-sm">
 

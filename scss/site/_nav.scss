@@ -19,7 +19,7 @@ button.navbar-toggler {
             opacity 0.375s;
         opacity: 1;
         @include min_md {
-            background-color: $white;
+            background-color: $loud;
         }
     }
     &.has-collapsed {

@@ -10,6 +10,7 @@
 // import "bootstrap/js/dist/toast";
 // import "bootstrap/js/dist/tooltip";
 
+import { play } from "./play.js";
 import { slider_nav } from "./slider_nav.js";
 import { init } from "./init.js";
 import { fallback } from "./fallback.js";
@@ -18,6 +19,7 @@ import { events } from "./utillites.js";
 
 events(window, "load", () => {
 
+  play();
   slider_nav();
   init();
   fallback();

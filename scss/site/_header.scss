@@ -35,8 +35,13 @@
         text-decoration: none;
         transition: background-color 0.3s ease-in-out;
         will-change: background-color;
+        overflow-x: hidden;
+        margin-top: 12.5rem;
+        @include min_md {
+            margin-top: initial;
+        }
         h2 {
-            font-size: 29px;
+            font-size: clamp(20px, 4vw, 26px);
             font-weight: 400;
             letter-spacing: 0.03em;
             color: $white;
@@ -46,11 +51,12 @@
             font-size: 17px;
             font-weight: 400;
             line-height: 1.4;
+            font-size: clamp(15px, 2vw, 17.5px);
         }
         b {
             font-size: 18px;
             font-weight: 400;
-            background-color: $secondary-2;
+            background-color: $secondary;
             color: $white;
             i {
                 transform: translateX(0%);
@@ -58,10 +64,25 @@
                 will-change: transform;
             }
         }
+        .shapes-1 {
+            border-top: 12.5rem solid;
+            border-color: $primary;
+            transition: border-color 0.3s ease-in-out;
+            will-change: border-color;
+            border-top-right-radius: 50%;
+            height: 25rem;
+            top: 0;
+            left: 0;
+            transform: translate(-57%, -42%);
+            width: 25rem;
+        }
         &:hover {
             background-color: $primary-1;
             b i {
                 transform: translateX(50%);
+            }
+            .shapes-1 {
+                border-color: $primary-1;
             }
         }
     }
