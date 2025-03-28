@@ -241,7 +241,7 @@
 
     </div>
 
-    <div data-aos="fade-up"  data-aos-offset="-200" class="container-flud positon-relative">
+    <div data-aos="fade-up"  data-aos-offset="-800" class="container-flud positon-relative">
 
       <a href="#" class="header-brochour-cta py-10 px-lg-12">
 
@@ -259,7 +259,7 @@
 
           </div>
 
-          <div data-aos="fade-left"  data-aos-offset="-200" class="col-39 col-xl-28">
+          <div data-aos="fade-left"  data-aos-offset="-800" class="col-39 col-xl-28">
 
             <p class="text-center text-xl-start pe-xl-9 ps-xl-5">
 
@@ -269,7 +269,7 @@
 
           </div>
 
-          <div data-aos="fade-left" data-aos-offset="-200" class="col-39 col-xl-16 d-flex justify-content-center justify-content-xl-end align-items-end mt-8 mt-xl-0">
+          <div data-aos="fade-left" data-aos-offset="-800" class="col-39 col-xl-16 d-flex justify-content-center justify-content-xl-end align-items-end mt-8 mt-xl-0">
 
             <b class="px-7 py-4">
 
