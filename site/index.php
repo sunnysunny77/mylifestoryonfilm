@@ -269,13 +269,17 @@
 
           </div>
 
-          <div data-aos="fade-left" data-aos-offset="-800" class="col-39 col-xl-16 d-flex justify-content-center justify-content-xl-end align-items-end mt-8 mt-xl-0">
+          <div data-aos="fade-left" data-aos-offset="-800" class="col-42 col-xl-16 d-flex justify-content-center justify-content-xl-end align-items-end mt-8 mt-xl-0">
 
             <b class="px-7 py-4">
 
-              Schedule a constellation
+              <span class="me-4">
 
-              <i class="fa-solid fa-circle-arrow-right ms-4"></i>
+                Schedule a constellation
+
+              </span>
+
+              <i class="fa-solid fa-circle-arrow-right"></i>
 
             </b>
 
