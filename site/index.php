@@ -241,7 +241,7 @@
 
     </div>
 
-    <div data-aos="fade-up" class="container-flud positon-relative">
+    <div data-aos="fade-up"  data-aos-offset="-200" class="container-flud positon-relative">
 
       <a href="#" class="header-brochour-cta py-10 px-lg-12">
 
@@ -259,7 +259,7 @@
 
           </div>
 
-          <div data-aos="fade-left" class="col-39 col-xl-28">
+          <div data-aos="fade-left"  data-aos-offset="-200" class="col-39 col-xl-28">
 
             <p class="text-center text-xl-start pe-xl-9 ps-xl-5">
 
@@ -269,7 +269,7 @@
 
           </div>
 
-          <div data-aos="fade-left" class="col-39 col-xl-16 d-flex justify-content-center justify-content-xl-end align-items-end mt-8 mt-xl-0">
+          <div data-aos="fade-left" data-aos-offset="-200" class="col-39 col-xl-16 d-flex justify-content-center justify-content-xl-end align-items-end mt-8 mt-xl-0">
 
             <b class="px-7 py-4">
 
@@ -289,13 +289,13 @@
 
   </header>
 
-  <main data-aos="fade-up">
+  <main>
 
     <div class="text-video container-sm">
 
-      <div class="row justify-content-center">
+      <div class="row justify-content-center mt-13">
 
-        <div class="col-39 mt-13 mb-10">
+        <div data-aos="fade-up" class="col-39 mb-10">
 
           <h2 class="text-center m-0">
 
@@ -305,7 +305,7 @@
 
         </div>
 
-        <div class="col-39 col-sm-48">
+        <div data-aos="fade-up" class="col-39 col-sm-48">
 
           <div class="row justify-content-sm-between align-items-end">
 

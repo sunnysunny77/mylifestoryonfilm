@@ -14,6 +14,5 @@ export const init = () => {
 
   AOS.init({
     once: true,
-    offset: -800,
   });
 };
