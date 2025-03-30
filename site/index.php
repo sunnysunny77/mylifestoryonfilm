@@ -213,19 +213,19 @@
 
                 <div class="col-14 primary-border p-2 p-sm-4">
 
-                  <img src="./images/outside.webp" alt="Mother and son walking" width="300" height="300">
+                  <img src="./images/dancing.webp" alt="Couple dancing outside in the park" width="300" height="300">
 
                 </div>
 
                 <div class="col-14 primary-border p-2 p-sm-4">
 
-                  <img src="./images/groovy.webp" alt="People having a groovy time" width="300" height="300">
+                  <img src="./images/nature.webp" alt="Grandparents and grandchildren walking down a hill" width="300" height="300">
 
                 </div>
 
                 <div class="col-14 primary-border p-2 p-sm-4">
 
-                  <img src="./images/yoga.webp" alt="People doing yoga" width="300" height="300">
+                  <img src="./images/grandparents-kids.webp" alt="Grandparents and grandchildren embracing" width="300" height="300">
 
                 </div>
 
@@ -333,7 +333,7 @@
 
             <div class="col-48 col-lg-24 video-container position-relative">
 
-              <video poster="./images/growing-up.webp" preload="auto" class="play" playsinline>
+              <video poster="./images/park.webp" preload="auto" class="play" playsinline>
 
                 <source src="./video/sample.mp4" type="video/mp4">
 
