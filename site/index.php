@@ -503,7 +503,7 @@
 
         <div class="col-39 col-sm-48 col-md-14 mt-12 mt-md-0">
 
-          <p class="p-8">
+          <p class="h-100 d-flex justify-content-center align-items-center p-8">
 
             Consectetur adipiscing elit, sed do eiusmod.
 
@@ -513,7 +513,7 @@
 
         <div class="col-39 col-sm-48 col-md-14 mt-11 mt-md-0">
 
-          <p class="p-8">
+          <p class="h-100 d-flex justify-content-center align-items-center p-8">
 
             Lorem ipsum dolor sit amet, consectetur.
 
@@ -523,7 +523,7 @@
 
         <div class="col-39 col-sm-48 col-md-14 mt-11  mt-md-0">
 
-          <p class="p-8">
+          <p class="h-100 d-flex justify-content-center align-items-center p-8">
 
             Sed do ipiscing eli eiusmod sit amet tempor.
 
