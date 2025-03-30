@@ -25,6 +25,8 @@
 
         <button class="slider_nav-navbar-toggler navbar-toggler p-5">
 
+          <span class="hidden">Menu</span>
+
           <div>
 
             <div class="slider_nav-bar slider_nav-bar-1"></div>
@@ -115,23 +117,27 @@
 
             <li class="mt-2">
 
-              <ul class="list-unstyled secondary-border-top ps-2">
+              <ul class="list-unstyled secondary-border-top d-flex flex-sm-column">
 
-                <li class="mt-4">
+                <li class="mt-3">
 
-                  <a class="d-block mt-1" href="#">
+                  <a class="d-block" href="#">
 
-                    <i class="fa-brands fa-square-facebook"></i>
+                    <span class="hidden">Facebook</span>
+
+                    <i class="fa-brands fa-square-facebook p-3"></i>
 
                   </a>
 
                 </li>
 
-                <li class="mt-2">
+                <li class="mt-3 mt-md-0">
 
-                  <a class="d-block mt-1" href="#">
+                  <a class="d-block" href="#">
 
-                    <i class="fa-brands fa-linkedin"></i>
+                    <span class="hidden">Linkedin</span>
+
+                    <i class="fa-brands fa-linkedin p-3"></i>
 
                   </a>
 
@@ -158,6 +164,8 @@
       <div data-aos="fade-right" class="col-48 col-md-14 header-brochure-side-column">
 
           <button class="slider_nav-navbar-toggler navbar-toggler p-5">
+
+            <span class="hidden">Menu</span>
 
             <div>
 
@@ -487,7 +495,7 @@
 
             <div class="col-48 col-lg-16">
 
-              <hr class="my-3">
+              <hr class="mt-3 mb-1">
 
               <ul class="list-unstyled d-flex justify-content-sm-end justify-content-lg-start mb-0 me-sm-2 ms-lg-2 me-lg-0">
 
@@ -495,7 +503,9 @@
 
                   <a href="#">
 
-                    <i class="fa-brands fa-square-facebook me-2"></i>
+                    <span class="hidden">Facebook</span>
+
+                    <i class="fa-brands fa-square-facebook p-3"></i>
 
                   </a>
 
@@ -505,7 +515,9 @@
 
                   <a  href="#">
 
-                    <i class="fa-brands fa-linkedin"></i>
+                    <span class="hidden">Linkedin</span>
+
+                    <i class="fa-brands fa-linkedin p-3"></i>
 
                   </a>
 
