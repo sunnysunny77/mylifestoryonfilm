@@ -19,11 +19,11 @@
 
   <div class="overflow-hidden">
 
-    <div class="navbar-collapse has-collapsed">
+    <div id="navbar-collapse" class="navbar-collapse has-collapsed">
 
       <div class="d-flex justify-content-end">
 
-        <button class="slider_nav-navbar-toggler navbar-toggler p-5">
+        <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler p-5">
 
           <span class="hidden">Menu</span>
 
@@ -163,7 +163,7 @@
 
       <div data-aos="fade-right" class="col-48 col-md-14 header-brochure-side-column">
 
-          <button class="slider_nav-navbar-toggler navbar-toggler p-5">
+          <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler p-5">
 
             <span class="hidden">Menu</span>
 

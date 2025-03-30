@@ -25,6 +25,9 @@ export const slider_nav = () => {
       theme: "os-theme-body",
   }});
 
+  navbar_toggler[0].setAttribute("aria-expanded", `${!has_collapsed}`);
+  navbar_toggler[1].setAttribute("aria-expanded", `${!has_collapsed}`);
+
   for (const index of navbar_toggler) {
 
     events(index , "click", () => {
@@ -34,6 +37,8 @@ export const slider_nav = () => {
       navbar_toggler[0].classList.toggle("has-collapsed");
       navbar_toggler[1].classList.toggle("has-collapsed");
       navbar_collapse.classList.toggle("has-collapsed");
+      navbar_toggler[0].setAttribute("aria-expanded", `${!has_collapsed}`);
+      navbar_toggler[1].setAttribute("aria-expanded", `${!has_collapsed}`);
       has_collapsed ? window.osInst.options({
         overflow: {
           x: "hidden",
