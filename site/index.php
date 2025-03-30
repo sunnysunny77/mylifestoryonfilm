@@ -151,9 +151,9 @@
 
   </div>
 
-  <header class="container-fluid header-brochure">
+  <header class="header-brochure d-flex flex-wrap align-items-stretch">
 
-    <div class="row justify-content-between">
+    <div class="row justify-content-between align-items-stretch">
 
       <div data-aos="fade-right" class="col-48 col-md-14 header-brochure-side-column">
 
@@ -171,7 +171,7 @@
 
       </div>
 
-      <div data-aos="fade-left" id="skip" class="col-48 col-md-34 bg-white pt-10 pt-md-12">
+      <div data-aos="fade-left" id="skip" class="col-48 col-md-34 bg-white pb-12 pt-10 pb-md-0 pt-md-12">
 
         <div class="row pe-md-2">
 
@@ -241,9 +241,9 @@
 
     </div>
 
-    <div data-aos="fade-up"  data-aos-offset="-800" class="container-flud positon-relative">
+    <div data-aos="fade-up"  data-aos-offset="-800" class="col-48 header-brochour-cta d-flex">
 
-      <a href="#" class="header-brochour-cta py-10 px-lg-12">
+      <a href="#" class="py-10 px-lg-12 positon-relative">
 
         <div class="shapes-1 position-absolute"></div>
 
