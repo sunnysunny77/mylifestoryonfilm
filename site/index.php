@@ -69,7 +69,7 @@
 
                 <li>
 
-                  <a href="./schedul">Schedule Constellation</a>
+                  <a href="./schedul">Schedule Consultation</a>
 
                 </li>
 
@@ -283,7 +283,7 @@
 
               <span class="me-4">
 
-                Schedule a constellation
+                Schedule a consultation
 
               </span>
 
@@ -599,7 +599,7 @@
 
                 <li>
 
-                  <a href="./schedul">Schedule Constellation</a>
+                  <a href="./schedul">Schedule Consultation</a>
 
                 </li>
 
