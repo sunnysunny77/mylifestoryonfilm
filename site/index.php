@@ -119,7 +119,7 @@
 
               <ul class="list-unstyled secondary-border-top d-flex flex-sm-column">
 
-                <li class="mt-3">
+                <li class="mt-2">
 
                   <a class="d-block" href="#">
 
@@ -131,7 +131,7 @@
 
                 </li>
 
-                <li class="mt-3 mt-md-0">
+                <li class="mt-2 mt-md-0">
 
                   <a class="d-block" href="#">
 
