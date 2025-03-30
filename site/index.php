@@ -85,7 +85,7 @@
 
                   <a href="tel:0456965365">
 
-                    Phone
+                    0456 965 365
 
                   </a>
 
@@ -95,7 +95,7 @@
 
                   <a href="mailto:eg@example.com">
 
-                    Mail
+                   eg@example.com
 
                   </a>
 
@@ -623,7 +623,7 @@
 
           <div class="row justify-content-center justify-content-sm-between">
 
-            <div class="col-48 col-lg-16">
+            <div class="col-48 col-lg-23">
 
               <hr class="my-3">
 
@@ -633,7 +633,7 @@
 
                   <a class="d-block" href="tel:0456965365">
 
-                    Phone
+                    0456 965 365
 
                   </a>
 
@@ -643,7 +643,7 @@
 
                   <a class="d-block" href="mailto:eg@example.com">
 
-                    Mail
+                    eg@example.com
 
                   </a>
 
@@ -653,7 +653,7 @@
 
             </div>
 
-            <div class="col-48 col-lg-16">
+            <div class="col-48 col-lg-13">
 
               <hr class="mt-3 mb-1">
 
