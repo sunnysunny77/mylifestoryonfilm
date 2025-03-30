@@ -305,7 +305,7 @@
 
     <div class="text-video container-sm">
 
-      <div class="row justify-content-center mt-13">
+      <div class="row justify-content-center mt-12 mt-md-13">
 
         <div data-aos="fade-up" class="col-39 mb-10">
 
@@ -375,7 +375,17 @@
 
           <h2 data-aos="fade-right" class="ms-md-10 mb-5">
 
-            Our process
+            <span class="d-block d-sm-inline">
+
+              Our
+
+            </span>
+
+            <span class="d-block d-sm-inline">
+
+              Process
+
+            </span>
 
           </h2>
 
