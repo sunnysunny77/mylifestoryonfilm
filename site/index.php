@@ -365,7 +365,7 @@
 
     </div>
 
-    <div id="slider_2-top" class="slider_2-outer container-sm">
+    <div data-aos="fade-up" id="slider_2-top" class="slider_2-outer container-sm">
 
       <div class="row">
 
@@ -373,7 +373,7 @@
 
           <hr class="mb-6 my-md-10">
 
-          <h2 class="ms-md-10">
+          <h2 data-aos="fade-right" class="ms-md-10 mb-5">
 
             Our process
 
@@ -487,7 +487,7 @@
 
     </div>
 
-    <div id="three-col-box" class="container-sm">
+    <div data-aos="fade-up" id="three-col-box" class="container-sm">
 
       <div class="row justify-content-center justify-content-md-between text-center mt-md-12">
 
