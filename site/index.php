@@ -25,7 +25,7 @@
 
         <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler p-5">
 
-          <span class="hidden">Menu</span>
+          <span class="hidden">Close menu</span>
 
           <div>
 
@@ -165,7 +165,7 @@
 
           <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler p-5">
 
-            <span class="hidden">Menu</span>
+            <span class="hidden">Open menu</span>
 
             <div>
 
