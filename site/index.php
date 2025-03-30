@@ -537,7 +537,7 @@
 
   </main>
 
-  <footer class="container-fluid pb-9 pt-11 mt-12">
+  <footer class="container-fluid pb-9 pt-11 mt-12 mt-md-13">
 
     <div class="container-sm">
 
