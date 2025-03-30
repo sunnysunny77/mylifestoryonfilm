@@ -63,13 +63,13 @@
 
                 <li>
 
-                  <a href="./information.php">Information</a>
+                  <a href="./information.php">Q<span class="small">&</span>A Information</a>
 
                 </li>
 
                 <li>
 
-                  <a href="./contact">Contact</a>
+                  <a href="./schedul">Schedule Constellation</a>
 
                 </li>
 
@@ -365,9 +365,169 @@
 
     </div>
 
+    <div id="slider_2-top" class="slider_2-outer container-sm">
+
+      <div class="row">
+
+        <div class="col-39 col-sm-48 mx-auto">
+
+          <hr class="mb-6 my-md-10">
+
+          <h2 class="ms-md-10">
+
+            Our process
+
+          </h2>
+
+        </div>
+
+        <div class="slider_2-container timeline-container col-48  mx-auto">
+
+        <?php
+
+        $index = 1;
+        $count = -1;
+        $array = array("Duis aute irure", "Lorem ipsum dolor", "Dolore magna aliqu", "Voluptate velit esse");
+
+        while ($index < 5) {
+
+        $direction = $index % 2 === 1 ? "flex-row" : "flex-row-reverse";
+        $direction_even = $index % 2 === 1 ? "flex-row-reverse" : "flex-row";
+        $justify_odd = $index % 2 === 1 ? "justify-content-md-end" : "justify-content-md-start";
+        $text_direction = $index % 2 === 1 ? "text-center text-md-end" : "text-center text-md-start";
+
+        $display = "d-none";
+
+        if ($index === 1) {
+
+          $display = "d-flex";
+        }
+
+        $count++;
+
+        if ($count === count($array)) {
+
+          $count = 0;
+        }
+
+        ?>
+
+        <div class="slider_2-item timeline-item row <?php echo $direction; ?> justify-content-center <?php echo $display; ?>">
+
+          <div class="col-48 col-md-24 d-flex <?php echo $justify_odd; ?>">
+
+            <div class="slider_2-line-container d-flex flex-fill <?php echo $direction_even; ?>">
+
+              <div class="slider_2-line">
+
+                <div class="slider_2-lineinner d-flex align-items-center justify-content-center mx-auto"><div class="slider_2-linemid"></div></div>
+
+              </div>
+
+              <div class="slider_2-date d-flex justify-content-center align-items-center">
+
+                <p class="text-center">
+
+                  <?php echo $array[$count] ?>
+
+                </p>
+
+            </div>
+
+          </div>
+
+          </div>
+
+            <div class="slider_2-content col-48 col-md-24">
+
+              <div class="row justify-content-center <?php echo $justify_odd; ?>">
+
+                <div class="col-35 col-md-40 <?php echo $text_direction; ?>">
+
+                  <p>
+
+                    <?php
+
+                    echo str_repeat(
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                      ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                      aliquip ex ea commodo consequat."
+                    ,$index);
+
+                    ?>
+
+                  </p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <?php
+
+          $index++;
+
+          };
+
+          ?>
+
+          <div class="slider_2-button-container d-flex justify-content-center pt-5 pt-md-0">
+
+            <button aria-label="see more" class="c-custom-1 timeline-button"><i class="fa-solid fa-arrow-down"></i></button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div id="three-col-box" class="container-sm">
+
+      <div class="row justify-content-center justify-content-md-between text-center mt-md-12">
+
+        <div class="col-39 col-sm-48 col-md-14 mt-12 mt-md-0">
+
+          <p class="p-8">
+
+            Consectetur adipiscing elit, sed do eiusmod.
+
+          </p>
+
+        </div>
+
+        <div class="col-39 col-sm-48 col-md-14 mt-11 mt-md-0">
+
+          <p class="p-8">
+
+            Lorem ipsum dolor sit amet, consectetur.
+
+          </p>
+
+        </div>
+
+        <div class="col-39 col-sm-48 col-md-14 mt-11  mt-md-0">
+
+          <p class="p-8">
+
+            Sed do ipiscing eli eiusmod sit amet tempor.
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
   </main>
 
-  <footer class="container-fluid pb-9 pt-11 mt-13">
+  <footer class="container-fluid pb-9 pt-11 mt-12">
 
     <div class="container-sm">
 
@@ -423,13 +583,13 @@
 
                 <li>
 
-                  <a href="./information.php">Information</a>
+                  <a href="./information.php">Q<span class="small">&</span>A Information</a>
 
                 </li>
 
                 <li>
 
-                  <a href="./contact">Contact</a>
+                  <a href="./schedul">Schedule Constellation</a>
 
                 </li>
 

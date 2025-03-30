@@ -10,6 +10,7 @@
 // import "bootstrap/js/dist/toast";
 // import "bootstrap/js/dist/tooltip";
 
+import { slider_2 } from "./slider_2.js";
 import { play } from "./play.js";
 import { slider_nav } from "./slider_nav.js";
 import { init } from "./init.js";
@@ -19,6 +20,7 @@ import { events } from "./utillites.js";
 
 events(window, "load", () => {
 
+  slider_2();
   play();
   slider_nav();
   init();

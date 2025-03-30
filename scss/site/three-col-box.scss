@@ -1,0 +1,17 @@
+#three-col-box {
+    p {
+        border: 2px solid $medium;
+        color: $primary;
+        position: relative;
+        &::after {
+            position: absolute;
+            content: "";
+            top: -50px;
+            left: calc(50% - 25px);
+            border-top: 25px solid transparent;
+            border-right: 25px solid transparent;
+            border-bottom: 25px solid $medium;
+            border-left: 25px solid transparent;
+        }
+    }
+}

@@ -1,12 +1,5 @@
 .text-video {
     color: $secondary;
-    h2 {
-        font-size: clamp(20px, 4vw, 26px);
-        font-weight: 400;
-        color: $secondary;
-        letter-spacing: 0.05em;
-        line-height: 1.5;
-    }
     .video-container {
         video {
             object-fit: cover;
