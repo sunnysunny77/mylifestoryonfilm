@@ -203,7 +203,7 @@
 
         <div class="row justify-content-center">
 
-          <div class="col-48 col-xl-18 form-side">
+          <div class="col-48 col-xl-18 form-side position-relative overflow-hidden">
 
             <div class="d-flex flex-wrap justify-content-between align-items-start">
 
@@ -251,13 +251,15 @@
 
               </svg>
 
-              <p class="pb-9 ps-5 pe-9 pt-9 m-0">
+              <p class="pb-14 ps-5 pe-9 pt-9 m-0">
               
                 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
 
               </p>
 
             </div>
+
+            <div class="shapes-1"></div>
 
           </div>
 

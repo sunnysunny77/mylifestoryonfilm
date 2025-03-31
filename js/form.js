@@ -71,7 +71,7 @@ export const form = () => {
     if (error) {
 
       reply.classList.add("has-p-error");
-      return; 
+      return;
     ;}
 
     reply.classList.remove("has-p-error");
