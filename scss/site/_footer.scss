@@ -10,9 +10,15 @@ footer {
             text-decoration: underline;
             text-decoration-color: $white;
             text-underline-offset: 5px;
+            transition:
+                color 0.3s ease-in-out,
+                text-decoration-color 0.3s ease-in-out;
         }
         &:hover {
             color: $light;
+            &.active {
+                text-decoration-color: $light;
+            }
         }
     }
     hr {
@@ -43,5 +49,5 @@ footer {
     }
     .small {
         font-size: 15px;
-    }    
+    }
 }

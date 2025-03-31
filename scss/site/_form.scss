@@ -1,0 +1,84 @@
+.form {
+    form {
+        background-color: $primary;
+        color: $white;
+        input,
+        textarea,
+        .form-check-input {
+            outline: none;
+            color: $secondary;
+            border: 2px solid transparent;
+            transition: 0.3s border ease-in-out;
+            box-shadow: none;
+        }
+        textarea {
+            resize: none;
+            scrollbar-color: $secondary-1 transparent;
+            &::-webkit-scrollbar {
+                width: 7px;
+            }
+            &::-webkit-scrollbar-track {
+                background: transparent;
+            }
+            &::-webkit-scrollbar-thumb {
+                background: $secondary-1;
+            }
+        }
+        label {
+            font-size: 17px;
+        }
+        input {
+            &.has-input-error {
+                border: 2px solid $warning;
+            }
+        }
+        input[type="checkbox"] {
+            cursor: pointer;
+        }
+    }
+    .form-side {
+        background-color: $medium;
+        h2,
+        p {
+            color: $white;
+            font-size: clamp(16.5px, 2vw, 18.5px);
+            letter-spacing: 0.03em;
+        }
+        .font {
+            fill: $white;
+            font-size: 17px;
+            font-weight: 500;
+            opacity: 0.88;
+        }
+    }
+    .form-tooltip {
+        width: fit-content;
+        height: 20px;
+        display: block;
+        font-size: 14px;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        will-change: opacity;
+        &.has-mouse {
+            opacity: 1;
+        }
+        &.has-tooltip-error {
+            color: $warning;
+            opacity: 1;
+        }
+    }
+    .button-container {
+        background-color: $primary-1;
+        transition: background-color 0.3s ease-in-out;
+        will-change: background-color;
+        &:hover {
+            background-color: lighten($primary-1, 3%);
+        }
+        input[type="submit"] {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            color: $white;
+        }
+    }
+}

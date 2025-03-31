@@ -41,8 +41,4 @@ $container-max-widths: (
 	xxl: 1140px
 );
 
-@include xs_sm {
-	.container {
-		max-width: calc(100% - 50px);
-	}
-}
+$form-check-input-checked-bg-color: $secondary;

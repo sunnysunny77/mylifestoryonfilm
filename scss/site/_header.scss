@@ -99,3 +99,45 @@
         }
     }
 }
+
+.small-header {
+    background-color: $medium;
+    position: relative;
+    overflow: hidden;
+    height: 83px;
+    a {
+        text-decoration: none;
+    }
+    h1 {
+        color: $white;
+        font-size: clamp(15px, 2vw, 17px);
+        font-weight: 200;
+        color: $secondary;
+        letter-spacing: 0.05em;
+        line-height: 1.5;
+        color: $white;
+        transition: opacity 0.3s ease-in-out;
+        opacity: 0.88;
+        will-change: opacity;
+        &:hover {
+            opacity: 0.67;
+        }
+        span {
+            display: block;
+            text-align: center;
+        }
+    }
+    &::before {
+        content: " ";
+        position: absolute;
+        display: block;
+        background-color: $white;
+        width: 88px;
+        height: 88px;
+        border-radius: 50%;
+        bottom: -67px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+    }
+}

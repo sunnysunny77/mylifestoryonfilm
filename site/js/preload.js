@@ -26,7 +26,19 @@ const fonts = [
   "./webfonts/fa-solid-900.woff2",
 ];
 
-if(path.includes("example")) {
+const home = [
+  "./images/grandparents-kids.webp",
+  "./images/nature.webp",
+  "./images/dancing.webp",
+];
+
+if(path.includes("schedule")) {
+
+  for (const index of fonts) {
+
+    preload(index, "font");
+  }
+} else if (path.includes("information")) {
 
   for (const index of fonts) {
 
@@ -34,6 +46,10 @@ if(path.includes("example")) {
   }
 } else {
 
+  for (const index of home) {
+
+    preload(index);
+  }
   for (const index of fonts) {
 
     preload(index, "font");

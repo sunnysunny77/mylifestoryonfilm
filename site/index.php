@@ -3,9 +3,9 @@
 <head>
   <script src="./js/preload.js"></script>
   <meta charset="utf-8" />
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
-  <meta name="author" content="" />
+  <meta name="description" content="My Life Story On Film" />
+  <meta name="keywords" content="Share your memories, Get together, Video, Film, Family, Life Story" />
+  <meta name="author" content="D.C" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Life Story On Film</title>
   <link href="./css/app.min.css" rel="stylesheet" type="text/css" />
@@ -51,7 +51,7 @@
 
             </li>
 
-            <li class="mt-2">
+            <li class="mt-2 pb-2">
 
               <ul class="list-unstyled secondary-border-top ps-2">
 
@@ -69,7 +69,7 @@
 
                 <li>
 
-                  <a href="./schedul">Schedule Consultation</a>
+                  <a href="./schedule.php">Schedule Consultation</a>
 
                 </li>
 
@@ -599,7 +599,7 @@
 
                 <li>
 
-                  <a href="./schedul">Schedule Consultation</a>
+                  <a href="./schedule.php">Schedule Consultation</a>
 
                 </li>
 
