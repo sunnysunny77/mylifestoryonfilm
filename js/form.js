@@ -68,7 +68,13 @@ export const form = () => {
       female.classList.remove("has-input-error");
     }
 
-    if (error) return;
+    if (error) {
+
+      reply.classList.add("has-p-error");
+      return; 
+    ;}
+
+    reply.classList.remove("has-p-error");
 
     const formData = new FormData(e.target);
 

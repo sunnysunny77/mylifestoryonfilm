@@ -36,6 +36,14 @@
             cursor: pointer;
         }
     }
+    .form-reply {
+        color: $white;
+        transition: color 0.3s ease-in-out;
+        will-change: color;
+        &.has-p-error {
+            color: $warning;
+        }
+    }
     .form-side {
         background-color: $medium;
         h2,
@@ -57,8 +65,9 @@
         display: block;
         font-size: 14px;
         opacity: 0;
-        transition: opacity 0.3s ease-in-out;
-        will-change: opacity;
+        transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
+        will-change: opacity, color;
+        color: $white;
         &.has-mouse {
             opacity: 1;
         }
