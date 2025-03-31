@@ -23,7 +23,7 @@
 
       <div class="d-flex justify-content-end">
 
-        <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler p-5">
+        <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-navbar-collapse px-6">
 
           <span class="hidden">Close menu</span>
 
@@ -163,7 +163,7 @@
 
       <div data-aos="fade-right" class="col-48 col-md-14 header-brochure-side-column">
 
-          <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler p-5">
+          <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-full px-6">
 
             <span class="hidden">Open menu</span>
 

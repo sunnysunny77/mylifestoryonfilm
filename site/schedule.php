@@ -23,7 +23,7 @@
 
       <div class="d-flex justify-content-end">
 
-        <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler p-5">
+        <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-navbar-collapse px-6">
 
           <span class="hidden">Close menu</span>
 
@@ -157,9 +157,9 @@
 
   </div>
 
-  <header class="container-fluid small-header small-nav d-flex justify-content-between align-items-center">
+  <header class="container-fluid small-header d-flex justify-content-between align-items-center">
 
-    <button data-aos="fade-right" aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler p-5">
+    <button data-aos="fade-right" aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-small px-6">
 
       <span class="hidden">Open menu</span>
 

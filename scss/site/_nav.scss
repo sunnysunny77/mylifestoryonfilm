@@ -6,11 +6,11 @@ button.navbar-toggler {
 }
 
 .slider_nav-navbar-toggler {
+    height: 83px;
     cursor: pointer;
     .slider_nav-bar {
         width: 24px;
         height: 3px;
-        background-color: $primary;
         margin: 4px 0;
         border-radius: 1.5px;
         will-change: transform, opacity;
@@ -18,9 +18,18 @@ button.navbar-toggler {
             transform 0.375s,
             opacity 0.375s;
         opacity: 1;
+    }
+    &.navbar-toggler-navbar-collapse .slider_nav-bar {
+        background-color: $primary;
+    }
+    &.navbar-toggler-full .slider_nav-bar {
+        background-color: $primary;
         @include min_md {
             background-color: $loud;
         }
+    }
+    &.navbar-toggler-small .slider_nav-bar {
+        background-color: $loud;
     }
     &.has-collapsed {
         .slider_nav-bar-1 {
@@ -37,11 +46,6 @@ button.navbar-toggler {
         cursor: pointer;
     }
 }
-
-.small-nav .slider_nav-navbar-toggler .slider_nav-bar {
-    background-color: $loud;
-}
-
 .navbar-collapse {
     background-color: $tertiary;
     position: fixed;
