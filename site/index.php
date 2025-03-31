@@ -109,7 +109,7 @@
 
           <ul class="col-42 col-sm-16 col-xl-10 col-xxl-8 list-unstyled mb-0 mt-2 p-4">
 
-            <li class="color-primary ms-2 ms-sm-4">
+            <li class="color-primary-2 ms-2 ms-sm-4">
 
               Socials
 
@@ -251,7 +251,7 @@
 
     <div data-aos="fade-up" data-aos-offset="-800" class="col-48 header-brochour-cta d-flex">
 
-      <a href="#" class="py-10 px-xl-9 py-xl-11 positon-relative">
+      <a href="#" class="py-10 px-xl-9 pb-xl-9 pt-xl-8 positon-relative">
 
         <div class="shapes-1 position-absolute"></div>
 
@@ -259,7 +259,7 @@
 
           <div class="col-39 col-xl-48 align-self-xl-center">
 
-            <h2 class="mb-7 ps-xl-11">
+            <h2 class="pb-7 ps-xl-11 pb-xl-4 m-0">
 
               Get together
 
@@ -267,11 +267,11 @@
 
           </div>
 
-          <div data-aos="fade-left"  data-aos-offset="-800" class="col-39 col-xl-26 col-xxl-24 align-self-xl-center">
+          <div data-aos="fade-left"  data-aos-offset="-800" class="col-39 col-xl-26 col-xxl-24">
 
-            <p class="text-center text-xl-start m-0 mb-xxl-7">
+            <p class="text-center text-xl-start m-0">
 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat, leo ac varius ullamcorper, lacus purus venenatis ex, eget dictum est turpis sit amet nisl. Ut vulputate lorem at justo ornare imperdiet. Suspendisse potenti. Aenean at viverra purus, in laoreet purus. Phasellus erat elit, volutpat eget sollicitudin vitae, pellentesque sit amet nibh.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat, leo ac varius ullamcorper, lacus purus venenatis ex, eget dictum est turpis sit amet nisl. Ut vulputate lorem at justo ornare imperdiet. Suspendisse potenti. Aenean at viverra purus, in laoreet purus.
 
             </p>
 

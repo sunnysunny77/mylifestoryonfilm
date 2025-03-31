@@ -109,7 +109,7 @@
 
           <ul class="col-42 col-sm-16 col-xl-10 col-xxl-8 list-unstyled mb-0 mt-2 p-4">
 
-            <li class="color-primary ms-2 ms-sm-4">
+            <li class="color-primary-2 ms-2 ms-sm-4">
 
               Socials
 
