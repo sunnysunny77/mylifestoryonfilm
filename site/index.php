@@ -181,7 +181,7 @@
 
       <div data-aos="fade-left" id="skip" class="col-48 col-md-34 bg-white pb-12 pt-10 pb-md-0 pt-md-12">
 
-        <div class="row pe-md-2">
+        <div class="row h-100 pe-md-2">
 
           <div class="col-42">
 
@@ -249,17 +249,17 @@
 
     </div>
 
-    <div data-aos="fade-up"  data-aos-offset="-800" class="col-48 header-brochour-cta d-flex">
+    <div data-aos="fade-up" data-aos-offset="-800" class="col-48 header-brochour-cta d-flex">
 
-      <a href="#" class="py-10 px-lg-12 positon-relative">
+      <a href="#" class="py-10 px-xl-9 py-xl-11 positon-relative">
 
         <div class="shapes-1 position-absolute"></div>
 
-        <div class="row justify-content-center">
+        <div class="row h-100 justify-content-center justify-content-xl-evenly align-items-start">
 
-          <div class="col-39 col-xl-48">
+          <div class="col-39 col-xl-48 align-self-xl-center">
 
-            <h2 class="mb-9">
+            <h2 class="mb-7 ps-xl-11">
 
               Get together
 
@@ -267,9 +267,9 @@
 
           </div>
 
-          <div data-aos="fade-left"  data-aos-offset="-800" class="col-39 col-xl-28">
+          <div data-aos="fade-left"  data-aos-offset="-800" class="col-39 col-xl-26 col-xxl-24 align-self-xl-center">
 
-            <p class="text-center text-xl-start pe-xl-9 ps-xl-5">
+            <p class="text-center text-xl-start m-0 mb-xxl-7">
 
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat, leo ac varius ullamcorper, lacus purus venenatis ex, eget dictum est turpis sit amet nisl. Ut vulputate lorem at justo ornare imperdiet. Suspendisse potenti. Aenean at viverra purus, in laoreet purus. Phasellus erat elit, volutpat eget sollicitudin vitae, pellentesque sit amet nibh.
 
@@ -277,7 +277,7 @@
 
           </div>
 
-          <div data-aos="fade-left" data-aos-offset="-800" class="col-42 col-xl-16 d-flex justify-content-center justify-content-xl-end align-items-end mt-8 mt-xl-0">
+          <div data-aos="fade-left" data-aos-offset="-800" class="col-42 col-xl-14 col-xxl-12  d-flex justify-content-center justify-content-xl-end align-items-end align-self-xl-end mt-9 mt-xl-0">
 
             <b class="px-7 py-4">
 
@@ -294,6 +294,8 @@
           </div>
 
         </div>
+
+        <div class="shapes-2"></div>
 
       </a>
 

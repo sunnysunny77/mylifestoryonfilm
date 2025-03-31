@@ -37,7 +37,7 @@
             text-decoration: none;
             transition: background-color 0.3s ease-in-out;
             will-change: background-color;
-            overflow-x: hidden;
+            overflow: hidden;
             h2 {
                 font-size: clamp(20px, 4vw, 26px);
                 font-weight: 400;
@@ -96,6 +96,18 @@
                     border-color: $primary-1;
                 }
             }
+            .shapes-2 {
+                overflow: hidden;
+                position: absolute;
+                bottom: -67px;
+                right: 0;
+                left: 0;
+                width: 88px;
+                height: 88px;
+                margin: 0 auto;
+                background-color: $white;
+                border-radius: 50%;
+            }
         }
     }
 }
@@ -127,10 +139,8 @@
             text-align: center;
         }
     }
-    &::before {
-        content: " ";
+    .shapes-1 {
         position: absolute;
-        display: block;
         background-color: $white;
         width: 88px;
         height: 88px;

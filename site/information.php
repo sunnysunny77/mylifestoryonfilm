@@ -193,6 +193,8 @@
 
     </a>
 
+    <div class="shapes-1"></div>
+
   </header>
 
   <main>
