@@ -285,7 +285,7 @@
 
             <form novalidate class="row h-100">
 
-              <label class="col-48 col-md-24 px-7 pt-5 py-md-7">
+              <label class="col-48 col-md-24 px-7 pb-md-7 pt-xl-7">
 
                 * Name
 
@@ -295,7 +295,7 @@
 
               </label>
 
-              <label class="col-48 col-md-24 px-7 pt-5 py-md-7">
+              <label class="col-48 col-md-24 px-7 pt-5 pt-md-0 pb-md-7 pt-xl-7">
 
                 * Phone 
 
@@ -427,7 +427,7 @@
 
             <div class="col-48 bg-medium">
 
-              <div class="cta-main bg-primary-1 py-9 py-md-11 pt-lg-12">
+              <div class="cta-main bg-primary-1 pb-9 pt-8 py-md-11 pt-lg-12">
 
                 <div class="row justify-content-center">
 

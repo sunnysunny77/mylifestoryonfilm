@@ -261,9 +261,9 @@
 
             <div class="col-48 bg-medium">
 
-              <div class="cta-main h-100 bg-primary">
+              <div class="cta-main h-100 bg-primary-main">
 
-                <div class="row h-100 justify-content-center justify-content-lg-start align-items-md-center py-9">
+                <div class="row h-100 justify-content-center justify-content-lg-start align-items-md-center pb-9 pt-6 py-md-9">
 
                     <div class="col-39 col-lg-36 ps-lg-12">
 
@@ -293,7 +293,7 @@
 
             <div class="col-48 positions-relaative">
 
-              <div class="row h-100 bg-primary">
+              <div class="row h-100 bg-primary-main">
 
                   <div class="col-39 col-lg-19 col-xl-16 col-xxl-12 bg-medium cta-button-container d-flex align-items-center py-9 px-6 py-md-6 px-sm-8">
 
@@ -564,7 +564,7 @@
 
           <div class="col-39 col-sm-48 bg-medium">
 
-            <div class="cta-main bg-primary-1 py-9 py-md-11 pt-lg-12">
+            <div class="cta-main bg-primary-1 pb-9 pt-8 py-md-11 pt-lg-12">
 
               <div class="row justify-content-center">
 

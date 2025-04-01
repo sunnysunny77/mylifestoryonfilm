@@ -2,11 +2,21 @@
     a {
         text-decoration: none;
         color: $white;
-        transition: opacity 0.3s ease-in-out;
-        will-change: opacity;
-        opacity: 1;
+        .bg-primary-1 {
+            transition: background-color 0.3s ease-in-out;
+            will-change: background-color;
+        }
+        .bg-primary-main {
+            transition: background-color 0.3s ease-in-out;
+            will-change: background-color;
+        }
         &:hover {
-            opacity: 0.925;
+            .bg-primary-1 {
+                background-color: $primary;
+            }
+            .bg-primary-main {
+                background-color: $primary-1;
+            }
             h2 {
                 transform: translateX(6.6%);
                 @include min-md {
