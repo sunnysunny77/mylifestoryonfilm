@@ -409,7 +409,7 @@
 
           <div class="row justify-content-center">
 
-            <div class="col-39 col-sm-48 bg-medium">
+            <div class="col-48 bg-medium">
 
               <div class="cta-main bg-primary-1 py-11 pt-lg-12">
 
@@ -431,7 +431,7 @@
 
             </div>
 
-            <div class="col-39 col-sm-48">
+            <div class="col-48">
 
               <div class="row bg-primary-1">
 
