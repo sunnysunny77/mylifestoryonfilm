@@ -251,7 +251,7 @@
 
     <div data-aos="fade-up" data-aos-offset="-800" class="col-48 header-brochour-cta d-flex">
 
-      <a href="#" class="py-10 px-xl-9 pb-xl-9 pt-xl-8 positon-relative">
+      <a href="./schedule.php" class="py-10 px-xl-9 pb-xl-9 pt-xl-8 positon-relative">
 
         <div class="shapes-1 position-absolute"></div>
 
@@ -307,7 +307,7 @@
 
     <div class="text-video container-sm">
 
-      <div class="row justify-content-center mt-12 mt-md-13">
+      <div class="row justify-content-center mt-11 mt-md-13">
 
         <div data-aos="fade-up" class="col-39 mb-10 mb-lg-11 mb-xxl-12">
 
@@ -367,7 +367,7 @@
 
     </div>
 
-    <div data-aos="fade-up" id="slider_2-top" class="slider_2-outer container-sm">
+    <div id="process" data-aos="fade-up" class="slider_2-outer container-sm">
 
       <div class="row">
 
@@ -537,9 +537,61 @@
 
     </div>
 
+    <div data-aos="fade-up" class="container-sm cta mt-11 mt-md-13">
+
+      <a href="./information.php">
+
+        <div class="row justify-content-center">
+
+          <div class="col-39 col-sm-48 bg-medium">
+
+            <div class="cta-main bg-primary-1 py-11 pt-lg-12">
+
+              <div class="row justify-content-center">
+
+                  <div class="col-39">
+
+                    <p class="m-0">
+
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat, leo ac varius ullamcorper, lacus purus venenatis ex, eget dictum est turpis sit amet nisl. Ut vulputate lorem at justo ornare imperdiet. Suspendisse potenti. Aenean at viverra purus, in laoreet purus.
+
+                    </p>
+
+                  </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-39 col-sm-48">
+
+            <div class="row bg-primary-1">
+
+                <div class="col-39 col-lg-19 bg-medium cta-button-container d-flex align-items-center justify-content-md-center py-9 ps-8 ps-md-0 pe-md-9 py-lg-7">
+
+                  <h2>
+
+                    Q<span class="small">&</span>A Information
+
+                  </h2>
+
+                </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </a>
+
+    </div>
+
   </main>
 
-  <footer class="container-fluid pb-9 pt-11 mt-12 mt-md-13">
+  <footer class="container-fluid pb-9 pt-11 mt-11 mt-md-13">
 
     <div class="container-sm">
 
@@ -547,33 +599,37 @@
 
         <div class="col-auto mt-7 ms-sm-2">
 
-          <svg aria-label="My Life Story On Film" viewBox="0 0 100 100" width="70" height="70">
+          <a href="./">
 
-            <defs>
+            <svg aria-label="My Life Story On Film" viewBox="0 0 100 100" width="70" height="70">
 
-                <path
+              <defs>
 
-                  id="circle"
-                  d="M 50, 50
-                  m -37, 0
-                  a 37,37 0 1,1 74,0
-                  a 37,37 0 1,1 -74,0"
+                  <path
 
-                />
+                    id="circle"
+                    d="M 50, 50
+                    m -37, 0
+                    a 37,37 0 1,1 74,0
+                    a 37,37 0 1,1 -74,0"
 
-            </defs>
+                  />
 
-            <text class="font">
+              </defs>
 
-              <textPath href="#circle">
+              <text class="font">
 
-                My -- Life -- Story ---
+                <textPath href="#circle">
 
-              </textPath>
+                  My -- Life -- Story --
 
-            </text>
+                </textPath>
 
-          </svg>
+              </text>
+
+            </svg>
+
+          </a>
 
         </div>
 

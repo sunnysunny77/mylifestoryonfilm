@@ -16,4 +16,16 @@ export const init = () => {
   AOS.init({
     once: true,
   });
+
+  const hash = location.hash;
+
+  if (hash) {
+
+    const path = document.querySelector(`${hash}`);
+
+    if (path) {
+
+        path.scrollIntoView({ behavior: "smooth" });
+    };
+  };
 };

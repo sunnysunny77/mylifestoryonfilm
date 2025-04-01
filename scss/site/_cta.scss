@@ -1,0 +1,42 @@
+.cta {
+    transition: opacity 0.3s ease-in-out;
+    will-change: opacity;
+    opacity: 1;
+    a {
+        text-decoration: none;
+        color: $white;
+    }
+    .cta-main {
+        border-bottom-left-radius: 40px;
+        p {
+            color: $white;
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            font-size: clamp(15px, 2vw, 17.5px);
+        }
+    }
+    .cta-button-container {
+        border-top-right-radius: 40px;
+        h2 {
+            font-size: clamp(17px, 3vw, 20px);
+            font-weight: 400;
+            letter-spacing: 0.05em;
+            line-height: 1.5;
+            color: $white;
+            transition: transform 0.3s ease-in-out;
+            will-change: transform;
+            transform: translateX(0%);
+            .small {
+                font-size: clamp(15px, 3vw, 18px);
+            }
+        }
+    }
+    &:hover {
+        opacity: 0.95;
+        h2 {
+            transform: translateX(12.5%);
+        }
+    }
+}

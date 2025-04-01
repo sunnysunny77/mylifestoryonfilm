@@ -21,7 +21,7 @@ export const slider_2 = () => {
       
       count = 0;
 
-      document.querySelector("#slider_2-top").scrollIntoView({ behavior: "smooth" });
+      document.querySelector("#process").scrollIntoView({ behavior: "smooth" });
 
       setTimeout(() => {
       
