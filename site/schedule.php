@@ -203,13 +203,13 @@
 
       <div class="col-39 col-xxl-32">
 
-        <h2 class="text-center text-md-end ms-1 mt-11 mb-9 mb-md-8 mt-md-12">
+        <h2 class="ms-1 mt-11 mb-9 mb-md-8 mt-md-12 d-flex align-items-center justify-content-center justify-content-md-end">
 
-        <span class="heading-inner bg-loud me-1"></span>
+          <span class="heading-inner bg-loud me-2"></span>
 
-        Get together
+            Get together
 
-        </h2>
+          </h2>
 
       </div>
 

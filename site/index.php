@@ -161,7 +161,7 @@
 
     <div class="row justify-content-between align-items-stretch">
 
-      <div data-aos="fade-right" data-aos-offset="-800" class="col-48 col-md-14 header-brochure-side-column">
+      <div data-aos="fade-right" data-aos-offset="-800" class="col-48 col-md-14 col-xxl-12 header-brochure-side-column">
 
           <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-full px-6">
 
@@ -179,7 +179,7 @@
 
       </div>
 
-      <div data-aos="fade-left" data-aos-offset="-800" class="col-48 col-md-34 bg-white pb-12 pt-10 pb-md-0 pt-md-12">
+      <div data-aos="fade-left" data-aos-offset="-800" class="col-48 col-md-34 col-xxl-36 bg-white pb-12 pt-10 pb-md-0 pt-md-12">
 
         <div class="row h-100 pe-md-2">
 
@@ -402,9 +402,9 @@
 
           <hr class="mb-6 mt-md-7 mb-xxl-11">
 
-          <h2 data-aos="fade-right" class="ms-md-10 mb-9 mb-md-7">
+          <h2 data-aos="fade-right" class="d-flex align-items-center ms-md-10 mb-9 mb-md-7">
 
-            <span class="heading-inner bg-primary-1 ms-1 me-1"></span>
+            <span class="heading-inner bg-primary-1 ms-1 me-2"></span>
 
             Our Process
 
