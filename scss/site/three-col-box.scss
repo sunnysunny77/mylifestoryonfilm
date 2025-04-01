@@ -3,7 +3,7 @@
         border: 2px solid $medium;
         color: $primary;
         position: relative;
-        font-size: clamp(15px, 2vw, 17px);
+        font-size: clamp(15px, 2vw, 16px);
         &::after {
             position: absolute;
             content: "";
