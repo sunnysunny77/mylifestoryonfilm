@@ -49,9 +49,12 @@
                 transform: translate(-57%, -42%);
                 right: initial;
                 border-top-right-radius: 50%;
-                height: 40rem;
+                height: 30rem;
                 width: 69%;
                 background-color: $primary;
+            }
+            @include min_xl {
+                height: 40rem;
             }
         }
         .shapes-2 {
