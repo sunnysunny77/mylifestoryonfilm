@@ -261,9 +261,9 @@
 
             <div class="col-48 bg-medium">
 
-              <div class="cta-main h-100 bg-primary py-11 pt-md-12 p7-lg-10">
+              <div class="cta-main h-100 bg-primary">
 
-                <div class="row justify-content-center justify-content-lg-start">
+                <div class="row h-100 justify-content-center justify-content-lg-start align-items-md-center py-11 py-md-9">
 
                     <div class="col-39 col-lg-36 ps-lg-12">
 
