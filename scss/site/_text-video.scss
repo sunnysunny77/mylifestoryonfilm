@@ -40,10 +40,8 @@
         color: $white;
         b {
             font-weight: 400;
-            font-size: 22px;
             background-color: $primary;
             color: $white;
-            font-size: clamp(16.5px, 4vw, 18.5px);
         }
         p {
             font-size: clamp(16.5px, 2vw, 18.5px);

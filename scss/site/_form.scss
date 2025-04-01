@@ -10,6 +10,8 @@
             border: 2px solid transparent;
             transition: 0.3s border ease-in-out;
             box-shadow: none;
+            appearance: none;
+            border-radius: 0;
         }
         textarea {
             resize: none;

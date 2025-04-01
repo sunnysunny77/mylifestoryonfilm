@@ -427,7 +427,7 @@
 
             <div class="col-48 bg-medium">
 
-              <div class="cta-main bg-primary-1 py-11 pt-lg-12">
+              <div class="cta-main bg-primary-1 py-9 py-md-11 pt-lg-12">
 
                 <div class="row justify-content-center">
 
