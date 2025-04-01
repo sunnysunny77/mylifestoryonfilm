@@ -309,7 +309,7 @@
 
       <div class="row justify-content-center mt-12 mt-md-13">
 
-        <div data-aos="fade-up" class="col-39 mb-10">
+        <div data-aos="fade-up" class="col-39 mb-10 mb-lg-11 mb-xxl-12">
 
           <h2 class="text-center m-0">
 
@@ -373,9 +373,9 @@
 
         <div class="col-39 col-sm-48 mx-auto">
 
-          <hr class="mb-6 my-md-10">
+          <hr class="mb-6 mt-md-7 mb-xxl-11">
 
-          <h2 data-aos="fade-right" class="ms-md-10 mb-5">
+          <h2 data-aos="fade-right" class="ms-md-10 mb-5 mb-md-7">
 
             <span class="d-block d-sm-inline">
 
@@ -499,9 +499,9 @@
 
     </div>
 
-    <div data-aos="fade-up" id="three-col-box" class="container-sm">
+    <div data-aos="fade-up" id="three-col-box" class="container-sm mt-md-12">
 
-      <div class="row justify-content-center justify-content-md-between text-center mt-md-12">
+      <div class="row justify-content-center justify-content-md-between text-center">
 
         <div class="col-39 col-sm-48 col-md-14 mt-12 mt-md-0">
 
