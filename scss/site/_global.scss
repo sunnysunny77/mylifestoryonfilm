@@ -35,6 +35,10 @@ body {
     background-color: $primary;
 }
 
+.bg-loud {
+    background-color: $loud;
+}
+
 .bg-primary-1 {
     background-color: $primary-1;
 }
@@ -115,4 +119,10 @@ h2 {
     color: $secondary;
     letter-spacing: 0.05em;
     line-height: 1.5;
+    .heading-inner {
+        display: inline-block;
+        width: 17px;
+        height: 17px;
+        border-radius: 4px;
+    }
 }

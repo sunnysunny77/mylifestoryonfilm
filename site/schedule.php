@@ -199,7 +199,23 @@
 
   <main>
 
-    <div data-aos="fade-up" class="row form justify-content-center align-items-stretch mt-11 mt-md-13">
+    <div data-aos="fade-up" class="row justify-content-center">
+
+      <div class="col-39 col-xxl-32">
+
+        <h2 class="text-center text-md-end ms-1 mt-11 mb-9 mb-md-8 mt-md-12">
+
+        <span class="heading-inner bg-loud me-1"></span>
+
+        Get together
+
+        </h2>
+
+      </div>
+
+    </div>
+
+    <div data-aos="fade-up" class="row form justify-content-center align-items-stretch">
 
       <div class="col-39 col-xxl-32">
 
@@ -435,7 +451,7 @@
 
               <div class="row bg-primary-1">
 
-                  <div class="col-39 col-lg-19 bg-medium cta-button-container d-flex align-items-center justify-content-md-center py-9 ps-8 ps-md-0 pe-md-9 py-lg-7">
+                  <div class="col-39 col-lg-19 bg-medium cta-button-container d-flex align-items-center justify-content-md-center py-9 px-6 ps-md-0 pe-md-9 py-lg-7">
 
                     <h2>
 

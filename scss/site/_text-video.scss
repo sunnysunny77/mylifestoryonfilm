@@ -39,10 +39,10 @@
     .video-card {
         color: $white;
         b {
-            font-weight: 500;
+            font-weight: 400;
             font-size: 22px;
-            background-color: $white;
-            color: $secondary;
+            background-color: $primary;
+            color: $white;
             font-size: clamp(16.5px, 4vw, 18.5px);
         }
         p {

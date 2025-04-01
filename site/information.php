@@ -231,7 +231,7 @@
 
             <div class="row bg-primary-1">
 
-                <div class="col-39 col-lg-19 bg-medium cta-button-container d-flex align-items-center justify-content-md-center py-9 ps-8 ps-md-0 pe-md-9 py-lg-7">
+                <div class="col-39 col-lg-19 bg-medium cta-button-container d-flex align-items-center justify-content-md-center py-9 px-6 ps-md-0 pe-md-9 py-lg-7">
 
                   <h2>
 

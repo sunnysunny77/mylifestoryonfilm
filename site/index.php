@@ -295,11 +295,11 @@
 
               <div class="row h-100 bg-primary">
 
-                  <div class="col-39 col-lg-19 col-xl-16 col-xxl-12 bg-medium cta-button-container d-flex align-items-center py-9 ps-8 py-md-6">
+                  <div class="col-39 col-lg-19 col-xl-16 col-xxl-12 bg-medium cta-button-container d-flex align-items-center py-9 px-6 py-md-6 px-sm-8">
 
                     <h2>
 
-                      Schedule a consultation
+                      Schedule consultation
 
                     </h2>
 
@@ -323,13 +323,15 @@
 
   <main>
 
-    <div class="text-video container-sm">
+    <div data-aos="fade-up" class="container-sm text-video">
 
       <div class="row justify-content-center mt-11 mt-md-13">
 
-        <div data-aos="fade-up" class="col-39 mb-10 mb-lg-11 mb-xxl-12">
+        <div class="col-36 mb-10 mb-lg-11 mb-xxl-12">
 
-          <h2 class="text-center m-0">
+          <h2 class="text-center">
+
+            <span class="heading-inner bg-primary-1 me-1"></span>
 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eleifend viverra odio eu placerat.
 
@@ -337,23 +339,30 @@
 
         </div>
 
-        <div data-aos="fade-up" class="col-39 col-sm-48">
+        <div class="col-39 col-sm-48">
 
-          <div class="row justify-content-sm-between align-items-end">
+          <div class="row justify-content-center">
 
-            <div class="col-48 col-lg-18 video-card bg-medium">
+            <div class="col-48 col-lg-24 video-card bg-medium d-flex flex-wrap align-items-start">
 
-              <b class="d-block p-3">
+              <p class="d-flex h-100 flex-column justify-content-between mb-0 ">
 
-                Lorem ipsum dolor sit amet
+                <b class="d-block w-100 p-3">
 
-              </b>
+                  Lorem ipsum dolor sit amet
 
-              <p class="mb-9 p-5">
+                </b>
 
-                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam pretium ipsum quis sapien ultricies, ut hendrerit odio porttitor. Nullam eleifend mi magna, in congue massa varius nec. Pellentesque iaculis nisi quis tincidunt consectetur.
+                <span class="d-block w-100 px-5 pt-5 pb-8 pe-lg-9">
 
-                <span class="d-block mt-2">per inceptos</span>
+                  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam pretium ipsum quis sapien ultricies, ut hendrerit odio porttitor. Nullam eleifend mi magna, in congue massa varius nec. Pellentesque iaculis nisi quis tincidunt consectetur.
+                </span>
+
+                <span class="d-block w-100 px-5 pt-5 pb-8 pe-lg-9">
+
+                  per inceptos
+
+                </span>
 
               </p>
 
@@ -395,17 +404,9 @@
 
           <h2 data-aos="fade-right" class="ms-md-10 mb-5 mb-md-7">
 
-            <span class="d-block d-sm-inline">
+            <span class="heading-inner bg-primary-1 ms-1 me-1"></span>
 
-              Our
-
-            </span>
-
-            <span class="d-block d-sm-inline">
-
-              Process
-
-            </span>
+            Our Process
 
           </h2>
 
@@ -587,7 +588,7 @@
 
             <div class="row bg-primary-1">
 
-                <div class="col-39 col-lg-19 bg-medium cta-button-container d-flex align-items-center justify-content-md-center py-9 ps-8 ps-md-0 pe-md-9 py-lg-7">
+                <div class="col-39 col-lg-19 bg-medium cta-button-container d-flex align-items-center justify-content-md-center py-9 px-6 ps-md-0 pe-md-9 py-lg-7">
 
                   <h2>
 

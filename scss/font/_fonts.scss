@@ -61,4 +61,11 @@
     src: url(../font/Poppins-Black.ttf);
 }
 
+@font-face {
+    font-family: "NunitoSans";
+    font-display: swap;
+    src: url(../font/NunitoSans.ttf);
+}
+
 $font: "Poppins";
+$font-1: "NunitoSans";
