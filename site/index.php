@@ -249,55 +249,73 @@
 
     </div>
 
-    <div data-aos="fade-up" data-aos-offset="-800" class="col-48 header-brochour-cta d-flex">
+    <div data-aos="fade-up" class="row cta header-brochour-cta justify-content-center positon-relative">
 
-      <a href="./schedule.php" class="py-10 px-xl-9 pb-xl-9 pt-xl-8 positon-relative">
+      <div class="col-48">
 
-        <div class="shapes-1 position-absolute"></div>
+        <a href="./schedule.php">
 
-        <div class="row h-100 justify-content-center justify-content-xl-evenly align-items-start">
+          <div class="shapes-1 position-absolute"></div>
 
-          <div class="col-39 col-xl-48 align-self-xl-center">
+          <div class="row h-100 justify-content-center">
 
-            <h2 class="pb-7 ps-xl-11 pb-xl-4 m-0">
+            <div class="col-48 bg-medium">
 
-              Get together
+              <div class="cta-main h-100 bg-primary py-11 pt-md-12 p7-lg-10">
 
-            </h2>
+                <div class="row justify-content-center justify-content-lg-start">
+
+                    <div class="col-39 col-lg-36 ps-lg-12">
+
+                      <div class="d-flex flex-wrap">
+
+                        <b class="mb-5 mb-lg-3">
+
+                          Get together
+
+                        </b>
+
+                        <p class="m-0">
+
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat, leo ac varius ullamcorper, lacus purus venenatis ex, eget dictum est turpis sit amet nisl. Ut vulputate lorem at justo ornare imperdiet. Suspendisse potenti. Aenean at viverra purus, in laoreet purus.
+
+                        </p>
+
+                      </div>
+
+                    </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-48">
+
+              <div class="row h-100 bg-primary">
+
+                  <div class="col-39 col-lg-19 col-xl-16 col-xxl-12 bg-medium cta-button-container d-flex align-items-center py-9 ps-8 py-md-6">
+
+                    <h2>
+
+                      Schedule a consultation
+
+                    </h2>
+
+                  </div>
+
+              </div>
+
+            </div>
 
           </div>
 
-          <div data-aos="fade-left"  data-aos-offset="-800" class="col-39 col-xl-26 col-xxl-24">
+        </a>
 
-            <p class="text-center text-xl-start m-0">
+        <div class="shapes-2 position-absolute"></div>
 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat, leo ac varius ullamcorper, lacus purus venenatis ex, eget dictum est turpis sit amet nisl. Ut vulputate lorem at justo ornare imperdiet. Suspendisse potenti. Aenean at viverra purus, in laoreet purus.
-
-            </p>
-
-          </div>
-
-          <div data-aos="fade-left" data-aos-offset="-800" class="col-42 col-xl-14 col-xxl-12  d-flex justify-content-center justify-content-xl-end align-items-end align-self-xl-end mt-9 mt-xl-0">
-
-            <b class="px-7 py-4">
-
-              <span class="me-4">
-
-                Schedule a consultation
-
-              </span>
-
-              <i class="fa-solid fa-circle-arrow-right"></i>
-
-            </b>
-
-          </div>
-
-        </div>
-
-        <div class="shapes-2"></div>
-
-      </a>
+      </div>
 
     </div>
 

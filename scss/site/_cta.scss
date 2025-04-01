@@ -5,10 +5,20 @@
         transition: opacity 0.3s ease-in-out;
         will-change: opacity;
         opacity: 1;
+        &:hover {
+            opacity: 0.95;
+            h2 {
+                transform: translateX(6.6%);
+                @include min-md {
+                    transform: translateX(12.5%);
+                }
+            }
+        }
     }
     .cta-main {
         border-bottom-left-radius: 40px;
-        p {
+        p,
+        b {
             color: $white;
             font-size: 17px;
             font-weight: 400;
@@ -31,14 +41,6 @@
             .small {
                 font-size: clamp(15px, 3vw, 18px);
             }
-        }
-    }
-    &:hover {
-        a {
-            opacity: 0.975;
-        }
-        h2 {
-            transform: translateX(12.5%);
         }
     }
 }
