@@ -175,7 +175,7 @@
 
     <a href="./">
 
-      <h1 class="text-end px-6 py-4 m-0">
+      <h1 id="skip" class="text-end px-6 py-4 m-0">
 
         <span>
 
@@ -313,33 +313,33 @@
 
                 <div class="col-48 col-md-24 px-7 pt-5 pt-md-0 pb-md-7">
 
-                  <label class="d-block w-100 h-100 d-flex flex-column">
-
+                  <p class="m-0">
+                    
                     Gender
 
-                    <span class="form-tooltip">Choose your gender</span>
+                  </p>
 
-                    <div class="input-tooltip gender-tooltip h-100 d-flex align-items-center">
+                  <span class="form-tooltip">Choose your gender</span>
 
-                      <label class="d-flex align-items-center">
+                  <div class="input-tooltip gender-tooltip d-flex">
 
-                        Male
+                    <label class="d-flex align-items-center">
 
-                        <input class="form-check-input ms-2 mt-0 me-0 mb-0" type="checkbox" name="male" value="male">
+                      Male
 
-                      </label>
+                      <input class="form-check-input ms-2 mt-0 me-3 mb-0" type="checkbox" name="male" value="male">
 
-                      <label class="ms-3 d-flex align-items-center">
+                    </label>
 
-                        Female
+                    <label class="d-flex align-items-center">
 
-                        <input class="form-check-input ms-2 mt-0 me-0 mb-0" type="checkbox" name="female" value="female">
+                      Female
 
-                      </label>
+                      <input class="form-check-input ms-2 mt-0 me-0 mb-0" type="checkbox" name="female" value="female">
 
-                    </div>
+                    </label>
 
-                  </label>
+                  </div>
 
                 </div>
 

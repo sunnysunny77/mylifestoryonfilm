@@ -175,7 +175,7 @@
 
     <a href="./">
 
-      <h1 class="text-end px-6 py-4 m-0">
+      <h1 id="skip" class="text-end px-6 py-4 m-0">
 
         <span>
 

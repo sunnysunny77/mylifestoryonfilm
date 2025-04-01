@@ -179,13 +179,13 @@
 
       </div>
 
-      <div data-aos="fade-left" id="skip" class="col-48 col-md-34 bg-white pb-12 pt-10 pb-md-0 pt-md-12">
+      <div data-aos="fade-left" class="col-48 col-md-34 bg-white pb-12 pt-10 pb-md-0 pt-md-12">
 
         <div class="row h-100 pe-md-2">
 
           <div class="col-42">
 
-            <h1 class="text-end">
+            <h1 id="skip" class="text-end">
 
               <span>
 
