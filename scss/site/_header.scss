@@ -1,7 +1,7 @@
 .header-brochure {
     min-height: 100dvh;
     @include min_md {
-        background-color: $tertiary;
+        background-color: $medium-1;
     }
     img {
         aspect-ratio: 3/2;
@@ -27,7 +27,7 @@
     .header-brochure-side-column {
         background-color: transparent;
         @include min_md {
-            background-color: $tertiary;
+            background-color: $medium-1;
         }
     }
     .header-brochour-cta {
@@ -49,8 +49,9 @@
                 transform: translate(-57%, -42%);
                 right: initial;
                 border-top-right-radius: 50%;
-                height: 25rem;
-                width: 25rem;
+                height: 40rem;
+                width: 69%;
+                background-color: $primary;
             }
         }
         .shapes-2 {
