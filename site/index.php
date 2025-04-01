@@ -157,7 +157,7 @@
 
   </div>
 
-  <header class="header-brochure d-flex flex-wrap align-items-stretch">
+  <header class="header-brochure d-flex flex-wrap align-items-stretch overflow-hidden">
 
     <div class="row justify-content-between align-items-stretch">
 
