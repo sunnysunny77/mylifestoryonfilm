@@ -6,7 +6,7 @@
         will-change: opacity;
         opacity: 1;
         &:hover {
-            opacity: 0.95;
+            opacity: 0.925;
             h2 {
                 transform: translateX(6.6%);
                 @include min-md {
