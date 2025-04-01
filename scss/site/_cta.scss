@@ -1,10 +1,10 @@
 .cta {
-    transition: opacity 0.3s ease-in-out;
-    will-change: opacity;
-    opacity: 1;
     a {
         text-decoration: none;
         color: $white;
+        transition: opacity 0.3s ease-in-out;
+        will-change: opacity;
+        opacity: 1;
     }
     .cta-main {
         border-bottom-left-radius: 40px;
@@ -34,7 +34,9 @@
         }
     }
     &:hover {
-        opacity: 0.95;
+        a {
+            opacity: 0.975;
+        }
         h2 {
             transform: translateX(12.5%);
         }
