@@ -295,7 +295,7 @@
 
               <div class="row h-100 bg-primary">
 
-                  <div class="col-39 col-lg-19 col-xl-16 col-xxl-12 bg-medium cta-button-container d-flex align-items-center py-9 ps-8 py-md-6">
+                  <div class="col-39 col-lg-19 col-xl-16 col-xxl-12 position-relative bg-medium cta-button-container d-flex align-items-center py-9 ps-8 py-md-6">
 
                     <h2>
 

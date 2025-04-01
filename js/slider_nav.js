@@ -14,6 +14,8 @@ export const slider_nav = () => {
     return;
   }
 
+  navbar_collapse.classList.add("has-js")
+
   let has_collapsed = true;
 
   OverlayScrollbars(navbar_collapse, {
