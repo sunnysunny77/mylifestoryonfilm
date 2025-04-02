@@ -1,14 +1,13 @@
 .header-brochure {
     min-height: 100dvh;
-    @include min_md {
-        background-color: $medium-1;
-    }
     img {
         aspect-ratio: 3/2;
         width: 100%;
         height: 100%;
         object-fit: cover;
-        border-radius: 3px;
+        @include min_sm {
+            border-radius: 3px;
+        }
     }
     h1 span {
         display: block;
@@ -37,34 +36,29 @@
         background-color: transparent;
         @include min_md {
             background-color: $medium-1;
+            border-top-right-radius: 9rem;
         }
     }
     .header-brochour-cta.cta {
         .shapes-1 {
-            border-top: 12.5rem solid;
-            border-color: $primary;
-            transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-            will-change: border-color;
+            transition: background-color 0.3s ease-in-out;
+            will-change: background-color;
             border-top-right-radius: 100%;
-            height: 50rem;
-            top: 0;
-            right: 0;
+            height: 25%;
+            top: -25%;
             left: 0;
-            transform: translate(0%, -12.5%);
-            width: 212.5%;
-            z-index: -1;
+            width: 100%;
+            z-index: 0;
+            background-color: $primary;
             @include min_md {
-                left: 0;
-                transform: translate(-57%, -42%);
-                right: initial;
-                border-top-right-radius: 50%;
-                height: 30rem;
-                width: 69%;
-                background-color: $primary;
+                height: 33%;
+                top: -33%;
+                width: 29.16666667%;
             }
             @include min_xxl {
-                height: 40rem;
-                width: 59%;
+                height: 50%;
+                top: -50%;
+                width: 25%;
             }
         }
         .shapes-2 {
@@ -81,20 +75,26 @@
         b {
             font-weight: 500;
             font-size: 19px;
-            opacity: 0.925;
+            @include min_md {
+                opacity: 0.95;
+            }
         }
         p {
-            font-size:  17.5px;
+            font-size: 17.5px;
             font-weight: 500;
-            opacity: 0.8;
+            @include min_md {
+                opacity: 0.9;
+            }
         }
         h2 {
             font-family: $font;
         }
+        .bg-medium {
+            z-index: 1;
+        }
         a:hover {
             .shapes-1 {
                 background-color: $primary-1;
-                border-color: $primary-1;
             }
         }
     }
@@ -137,7 +137,7 @@
             font-size: 16px;
         }
     }
-    h2{
+    h2 {
         font-size: 16px;
         font-weight: 400;
         @include min_md {

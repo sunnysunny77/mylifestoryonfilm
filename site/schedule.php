@@ -225,9 +225,9 @@
 
   </header>
 
-  <main>
+  <main class="py-11 py-md-13">
 
-    <div data-aos="fade-up" class="row form justify-content-center align-items-stretch  mt-11 mt-md-13">
+    <div data-aos="fade-up" class="row form justify-content-center align-items-stretch">
 
       <div class="col-39 col-xxl-32">
 
@@ -487,7 +487,7 @@
 
   </main>
 
-  <footer class="container-fluid pb-9 pt-11 mt-11 mt-md-13">
+  <footer class="container-fluid pb-9 pt-11">
 
     <div class="container-sm">
 

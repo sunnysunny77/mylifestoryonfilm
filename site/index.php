@@ -161,25 +161,25 @@
 
     <div class="row justify-content-between align-items-stretch">
 
-      <div data-aos="fade-right" data-aos-offset="-800" class="col-48 col-md-14 col-xxl-12 header-brochure-side-column">
+      <div class="col-48 col-md-14 col-xxl-12 header-brochure-side-column">
 
-          <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-full p-5">
+        <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-full p-5">
 
-            <span class="hidden">Open menu</span>
+          <span class="hidden">Open menu</span>
 
-            <div>
+          <div data-aos="fade-right">
 
-              <div class="slider_nav-bar slider_nav-bar-1"></div>
-              <div class="slider_nav-bar slider_nav-bar-2"></div>
-              <div class="slider_nav-bar slider_nav-bar-3"></div>
+            <div class="slider_nav-bar slider_nav-bar-1"></div>
+            <div class="slider_nav-bar slider_nav-bar-2"></div>
+            <div class="slider_nav-bar slider_nav-bar-3"></div>
 
-            </div>
+          </div>
 
-          </button>
+        </button>
 
       </div>
 
-      <div data-aos="fade-left" data-aos-offset="-800" class="col-48 col-md-34 col-xxl-36 bg-white pb-12 pt-10 pb-md-0 pt-md-11">
+      <div class="col-48 col-md-34 col-xxl-36 bg-white pb-12 pt-10 pb-md-0 pt-md-11">
 
         <div class="row h-100">
 
@@ -219,19 +219,19 @@
 
               <div class="row justify-content-between">
 
-                <div class="col-14 primary-border p-2 p-sm-4">
+                <div class="col-14 primary-border p-2 p-xl-3">
 
                   <img src="./images/dancing.webp" alt="Couple dancing outside in the park" width="300" height="300">
 
                 </div>
 
-                <div class="col-14 primary-border p-2 p-sm-4">
+                <div class="col-14 primary-border p-2 p-xl-3">
 
                   <img src="./images/nature.webp" alt="Grandparents and grandchildren walking down a hill" width="300" height="300">
 
                 </div>
 
-                <div class="col-14 primary-border p-2 p-sm-4">
+                <div class="col-14 primary-border p-2 p-xl-3">
 
                   <img src="./images/grandparents-kids.webp" alt="Grandparents and grandchildren embracing" width="300" height="300">
 
@@ -249,17 +249,15 @@
 
     </div>
 
-    <div data-aos="fade-up" data-aos-offset="-800" class="row cta header-brochour-cta justify-content-center positon-relative">
+    <div class="row cta header-brochour-cta justify-content-center">
 
       <div class="col-48">
 
         <a href="./schedule.php">
 
-          <div class="shapes-1 position-absolute"></div>
-
           <div class="row h-100 justify-content-center position-relative">
 
-            <div class="col-48 bg-medium">
+            <div class="col-48 bg-medium position-relative">
 
               <div class="cta-main h-100 bg-primary-main">
 
@@ -291,7 +289,7 @@
 
             </div>
 
-            <div class="col-48 positions-relaative">
+            <div class="col-48 position-relative">
 
               <div class="row h-100 bg-primary-main">
 
@@ -309,11 +307,13 @@
 
             </div>
 
+            <div class="shapes-1 position-absolute"></div>
+
+            <div class="shapes-2 position-absolute"></div>
+
           </div>
 
         </a>
-
-        <div class="shapes-2 position-absolute"></div>
 
       </div>
 
@@ -321,17 +321,17 @@
 
   </header>
 
-  <main>
+  <main class="py-11 py-md-13">
 
     <div data-aos="fade-up" class="container-sm text-video">
 
-      <div class="row justify-content-center mt-11 mt-md-13">
+      <div class="row justify-content-center">
 
         <div class="col-36 mb-10 mb-lg-11 mb-xxl-12">
 
           <h2 class="text-center">
 
-            <span class="heading-inner bg-primary-1 me-1"></span>
+            <span class="heading-inner bg-primary-1 me-1 mb-1"></span>
 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eleifend viverra odio eu placerat.
 
@@ -394,15 +394,15 @@
 
     </div>
 
-    <div id="process" data-aos="fade-up" class="slider_2-outer container-sm mt-2">
+    <div id="process" class="slider_2-outer container-sm mt-2">
 
-      <div class="row">
+      <div data-aos="fade-up" class="row">
 
         <div class="col-39 col-sm-48 mx-auto">
 
-          <h2 data-aos="fade-right" class="d-flex align-items-center ms-xl-10 mb-9 mb-md-7">
+          <h2 data-aos="fade-right" class="ms-xl-10 mb-9 mb-md-7">
 
-            <span class="heading-inner bg-primary-1 ms-1 me-2"></span>
+          <span class="heading-inner bg-primary-1 me-1 mb-1"></span>
 
             Our Process
 
@@ -608,7 +608,7 @@
 
   </main>
 
-  <footer class="container-fluid pb-9 pt-11 mt-11 mt-md-13">
+  <footer class="container-fluid pb-9 pt-11">
 
     <div class="container-sm">
 

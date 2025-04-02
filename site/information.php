@@ -225,9 +225,9 @@
 
   </header>
 
-  <main>
+  <main class="py-11 py-md-13">
 
-    <div data-aos="fade-up" class="container-sm cta mt-11 mt-md-13">
+    <div data-aos="fade-up" class="container-sm cta">
 
       <a href="./schedule.php">
 
@@ -281,7 +281,7 @@
 
   </main>
 
-  <footer class="container-fluid pb-9 pt-11 mt-12 mt-md-13">
+  <footer class="container-fluid pb-9 pt-11">
 
     <div class="container-sm">
 

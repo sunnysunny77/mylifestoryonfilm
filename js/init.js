@@ -3,6 +3,8 @@ import AOS from "aos";
 
 export const init = () => {
 
+  const navbar_collapse = document.querySelector(".navbar-collapse");
+
   window.osInst = OverlayScrollbars(document.body, {
     overflow: {
       x: "hidden",
@@ -16,6 +18,8 @@ export const init = () => {
   AOS.init({
     once: true,
   });
+
+  navbar_collapse.classList.add("has-js");
 
   const hash = location.hash;
 
