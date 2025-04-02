@@ -205,7 +205,7 @@
 
           </div>
 
-          <div data-aos="fade-left" data-aos-offset="-800" class="col-48">
+          <div data-aos="fade-left" data-aos-offset="-800" class="col-48 mb-md-9 mb-lg-0">
 
             <div class="row justify-content-center">
 
@@ -273,7 +273,7 @@
 
             <div class="bg-medium flex-fill">
 
-              <div class="cta-main h-100 bg-primary-main pb-9 pb-sm-12 pt-sm-7 pt-lg-14">
+              <div class="cta-main h-100 bg-primary-main pb-9 pb-sm-12 pb-md-13 pt-sm-7 pt-lg-14 pb-lg-9">
 
                 <div class="row justify-content-center">
 
@@ -331,7 +331,7 @@
 
       <div class="row justify-content-center">
 
-        <div class="col-36 mb-10 mb-lg-11 mb-xxl-12">
+        <div class="col-36 mb-10 mb-md-12 mb-lg-11 mb-xxl-12">
 
           <h2 class="text-center">
 
@@ -398,7 +398,7 @@
 
     </div>
 
-    <div id="process" class="slider_2-outer container-sm mt-2">
+    <div id="process" class="slider_2-outer container-sm mt-2 mt-md-9">
 
       <div data-aos="fade-up" class="row">
 

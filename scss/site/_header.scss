@@ -46,6 +46,10 @@
             background-color: $primary;
             @include min_sm {
                 width: 123%;
+                top: -33%;
+            }
+            @include min_md {
+                top: -40%;
             }
         }
         .shapes-2 {
