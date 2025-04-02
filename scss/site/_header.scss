@@ -22,7 +22,7 @@
             font-weight: 500;
         }
     }
-    p {
+    .sub-heading {
         font-size: clamp(20px, 3vw, 24px);
         font-weight: 300;
         color: $secondary;
@@ -81,18 +81,15 @@
         b {
             font-weight: 500;
             font-size: 19px;
-            font-family: $font-1;
+            opacity: 0.925;
         }
         p {
             font-size:  17.5px;
-            font-family: $font;
-        }
-        b,
-        p {
-            opacity: 0.88;
+            font-weight: 500;
+            opacity: 0.8;
         }
         h2 {
-            font-family: $font-1;
+            font-family: $font;
         }
         a:hover {
             .shapes-1 {

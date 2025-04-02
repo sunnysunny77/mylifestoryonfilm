@@ -205,7 +205,7 @@
 
           <div class="col-42 pb-9">
 
-            <p class="text-end mb-0">
+            <p class="text-end mb-0 sub-heading">
 
               SHARE YOUR MEMORIES
 
