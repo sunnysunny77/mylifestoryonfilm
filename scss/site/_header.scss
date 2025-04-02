@@ -8,6 +8,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+        border-radius: 3px;
     }
     h1 span {
         display: block;
@@ -77,11 +78,21 @@
             background-color: $white;
             border-radius: 50%;
         }
+        b {
+            font-weight: 500;
+            font-size: 19px;
+            font-family: $font-1;
+        }
+        p {
+            font-size:  17.5px;
+            font-family: $font;
+        }
         b,
         p {
-            opacity: 0.95;
-            font-family: $font;
-            font-size: clamp(17px, 2vw, 18.5px);
+            opacity: 0.88;
+        }
+        h2 {
+            font-family: $font-1;
         }
         a:hover {
             .shapes-1 {
@@ -93,31 +104,59 @@
 }
 
 .small-header {
-    background-color: $medium;
     position: relative;
     overflow: hidden;
-    height: 83px;
     a {
         text-decoration: none;
     }
-    h1 {
+    h1,
+    h2,
+    p {
         color: $white;
-        font-size: clamp(15px, 2vw, 17px);
-        font-weight: 200;
         color: $secondary;
         letter-spacing: 0.05em;
         line-height: 1.5;
         color: $white;
-        transition: opacity 0.3s ease-in-out;
         opacity: 0.88;
-        will-change: opacity;
         font-family: $font-1;
+    }
+    h1 {
+        font-weight: 300;
+        font-size: 15px;
+        transition: opacity 0.3s ease-in-out;
+        will-change: opacity;
         &:hover {
             opacity: 0.67;
         }
         span {
             display: block;
             text-align: center;
+        }
+    }
+    p {
+        font-size: 15px;
+        font-weight: 200;
+        @include min_md {
+            font-size: 16px;
+        }
+    }
+    h2{
+        font-size: 16px;
+        font-weight: 400;
+        @include min_md {
+            font-size: 17px;
+        }
+        @include min_xxl {
+            font-size: 20px;
+        }
+    }
+    .small-header-radius {
+        border-top-left-radius: 40px;
+    }
+    .small-header-bg {
+        background-color: $medium;
+        @include min_lg {
+            background-color: $primary-1;
         }
     }
     .shapes-1 {

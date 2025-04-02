@@ -17,6 +17,7 @@ body {
 
 .primary-border {
     border: 3px solid $primary;
+    border-radius: 3px;
 }
 
 .secondary-border-top {
@@ -57,7 +58,7 @@ body {
 .os-theme-body .os-scrollbar-handle {
     background: $secondary-1;
     border-radius: 0px;
-    height: 83px;
+    height: 85px;
 }
 
 .os-theme-body .os-scrollbar-track {

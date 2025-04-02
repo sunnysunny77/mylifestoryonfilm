@@ -4,7 +4,7 @@
   <script src="./js/preload.js"></script>
   <meta charset="utf-8" />
   <meta name="description" content="My Life Story On Film" />
-  <meta name="keywords" content="Share your memories, Get together, Video, Film, Family, Life Story" />
+  <meta name="keywords" content="Share your memories, Get together, Video, Film, Family, Life Story, Exchange stories, Reminisce" />
   <meta name="author" content="D.C" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Life Story On Film</title>
@@ -23,7 +23,7 @@
 
       <div class="d-flex justify-content-end">
 
-        <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-navbar-collapse px-6">
+        <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-navbar-collapse p-5">
 
           <span class="hidden">Close menu</span>
 
@@ -163,7 +163,7 @@
 
       <div data-aos="fade-right" data-aos-offset="-800" class="col-48 col-md-14 col-xxl-12 header-brochure-side-column">
 
-          <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-full px-6">
+          <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-full p-5">
 
             <span class="hidden">Open menu</span>
 
@@ -179,13 +179,13 @@
 
       </div>
 
-      <div data-aos="fade-left" data-aos-offset="-800" class="col-48 col-md-34 col-xxl-36 bg-white pb-12 pt-10 pb-md-0 pt-md-12">
+      <div data-aos="fade-left" data-aos-offset="-800" class="col-48 col-md-34 col-xxl-36 bg-white pb-12 pt-10 pb-md-0 pt-md-11">
 
-        <div class="row h-100 pe-md-2">
+        <div class="row h-100">
 
           <div class="col-42">
 
-            <h1 id="skip" class="text-end">
+            <h1 id="skip" class="text-end m-0">
 
               <span>
 
@@ -203,9 +203,9 @@
 
           </div>
 
-          <div class="col-42 pb-11">
+          <div class="col-42 pb-9">
 
-            <p class="text-end mb-1">
+            <p class="text-end mb-0">
 
               SHARE YOUR MEMORIES
 
@@ -215,7 +215,7 @@
 
           <div class="row justify-content-center justify-content-md-end pe-md-8">
 
-            <div class="col-42 col-md-41 pb-10">
+            <div class="col-42 col-md-40 pb-9 pb-md-8">
 
               <div class="row justify-content-between">
 
@@ -263,19 +263,19 @@
 
               <div class="cta-main h-100 bg-primary-main">
 
-                <div class="row h-100 justify-content-center justify-content-lg-start align-items-md-center pb-9 pt-6 py-md-9">
+                <div class="row h-100 justify-content-center align-items-md-center pb-9 pt-6 py-md-9">
 
-                    <div class="col-39 col-lg-36 ps-lg-12">
+                    <div class="col-39 col-xxl-32 me-xxl-16">
 
                       <div class="d-flex flex-wrap">
 
-                        <b class="mb-5 mb-lg-3">
+                        <p class="m-0 text-md-center text-lg-start">
 
-                          Get together
+                          <b class="d-block mb-5 text-start">
 
-                        </b>
+                            Get together
 
-                        <p class="m-0">
+                          </b>
 
                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat, leo ac varius ullamcorper, lacus purus venenatis ex, eget dictum est turpis sit amet nisl. Ut vulputate lorem at justo ornare imperdiet. Suspendisse potenti. Aenean at viverra purus, in laoreet purus.
 
@@ -394,15 +394,13 @@
 
     </div>
 
-    <div id="process" data-aos="fade-up" class="slider_2-outer container-sm">
+    <div id="process" data-aos="fade-up" class="slider_2-outer container-sm mt-2">
 
       <div class="row">
 
         <div class="col-39 col-sm-48 mx-auto">
 
-          <hr class="mb-6 mt-md-7 mb-xxl-11">
-
-          <h2 data-aos="fade-right" class="d-flex align-items-center ms-md-10 mb-9 mb-md-7">
+          <h2 data-aos="fade-right" class="d-flex align-items-center ms-xl-10 mb-9 mb-md-7">
 
             <span class="heading-inner bg-primary-1 ms-1 me-2"></span>
 

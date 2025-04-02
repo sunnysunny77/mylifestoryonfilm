@@ -4,7 +4,7 @@
   <script src="./js/preload.js"></script>
   <meta charset="utf-8" />
   <meta name="description" content="My Life Story On Film" />
-  <meta name="keywords" content="Share your memories, Get together, Video, Film, Family, Life Story" />
+  <meta name="keywords" content="Share your memories, Get together, Video, Film, Family, Life Story, Exchange stories, Reminisce" />
   <meta name="author" content="D.C" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Life Story On Film</title>
@@ -23,7 +23,7 @@
 
       <div class="d-flex justify-content-end">
 
-        <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-navbar-collapse px-6">
+        <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-navbar-collapse p-5">
 
           <span class="hidden">Close menu</span>
 
@@ -157,41 +157,69 @@
 
   </div>
 
-  <header class="container-fluid small-header d-flex justify-content-between align-items-center">
+  <header class="container-fluid small-header bg-primary-1">
 
-    <button data-aos="fade-right" aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-small px-6">
+    <div class="d-flex flex-wrap justify-content-between align-items-start">
 
-      <span class="hidden">Open menu</span>
+      <button data-aos="fade-right" aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-small p-5">
 
-      <div>
+        <span class="hidden">Open menu</span>
 
-          <div class="slider_nav-bar slider_nav-bar-1"></div>
-          <div class="slider_nav-bar slider_nav-bar-2"></div>
-          <div class="slider_nav-bar slider_nav-bar-3"></div>
+        <div>
+
+            <div class="slider_nav-bar slider_nav-bar-1"></div>
+            <div class="slider_nav-bar slider_nav-bar-2"></div>
+            <div class="slider_nav-bar slider_nav-bar-3"></div>
+
+        </div>
+
+      </button>
+
+      <a href="./">
+
+        <h1 id="skip" class="text-end px-8 py-5 m-0">
+
+          <span>
+
+            My Life Story
+
+          </span>
+
+          <span>
+
+            On Film
+
+          </span>
+
+        </h1>
+
+      </a>
+
+    </div>
+
+    <div class="row justify-content-end">
+
+      <div class="col-41 col-lg-31 col-xxl-36 small-header-bg order-2 order-lg-1 px-8 pb-9 pt-3 py-lg-5 text-end text-lg-start">
+
+        <p class="m-0">
+
+          SHARE YOUR MEMORIES
+
+        </p>
 
       </div>
 
-    </button>
+      <div class="col-41 col-lg-17 col-xxl-12 bg-medium small-header-radius order-1 order-lg-2 px-8 pt-8 py-lg-5">
 
-    <a href="./">
+        <h2 class="m-0 text-end text-lg-center">
 
-      <h1 id="skip" class="text-end px-6 py-4 m-0">
+          Exchange stories
 
-        <span>
+        </h2>
 
-          My Life Story
+      </div>
 
-        </span>
-
-        <span>
-
-          On Film
-
-        </span>
-
-      </h1>
-
-    </a>
+    </div>
 
     <div class="shapes-1"></div>
 
