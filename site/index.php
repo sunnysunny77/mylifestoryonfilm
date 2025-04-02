@@ -17,6 +17,20 @@
 
   <a accesskey="s" href="#skip"><span class="hidden">Skip Navigation</span></a>
 
+  <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-full">
+
+    <span class="hidden">Open menu</span>
+
+    <div class="p-5" data-aos="fade-right">
+
+      <div class="slider_nav-bar slider_nav-bar-1"></div>
+      <div class="slider_nav-bar slider_nav-bar-2"></div>
+      <div class="slider_nav-bar slider_nav-bar-3"></div>
+
+    </div>
+
+  </button>
+
   <div class="overflow-hidden">
 
     <div id="navbar-collapse" class="navbar-collapse has-collapsed">
@@ -157,35 +171,17 @@
 
   </div>
 
-  <header class="header-brochure d-flex flex-wrap align-items-stretch overflow-hidden">
+  <header class="header-brochure d-flex flex-wrap align-items-stretch">
 
-    <div class="row justify-content-between align-items-stretch">
+    <div class="row justify-content-between">
 
-      <div class="col-48 col-md-14 col-xxl-12 header-brochure-side-column">
+      <div class="col-48 col-lg-28 header-brochure-main bg-white pt-12 pt-lg-0">
 
-        <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-full p-5">
+        <div class="row h-100 align-items-lg-center">
 
-          <span class="hidden">Open menu</span>
+          <div data-aos="fade-left" data-aos-offset="-800" class="col-42">
 
-          <div data-aos="fade-right">
-
-            <div class="slider_nav-bar slider_nav-bar-1"></div>
-            <div class="slider_nav-bar slider_nav-bar-2"></div>
-            <div class="slider_nav-bar slider_nav-bar-3"></div>
-
-          </div>
-
-        </button>
-
-      </div>
-
-      <div class="col-48 col-md-34 col-xxl-36 bg-white pb-12 pt-10 pb-md-0 pt-md-11">
-
-        <div class="row h-100">
-
-          <div class="col-42">
-
-            <h1 id="skip" class="text-end m-0">
+            <h1 id="skip" class="text-end mb-1 mb-lg-3 ps-6 ps-sm-0 pt-lg-9">
 
               <span>
 
@@ -201,11 +197,7 @@
 
             </h1>
 
-          </div>
-
-          <div class="col-42 pb-9">
-
-            <p class="text-end mb-0 sub-heading">
+            <p class="text-end mb-9 mb-lg-0 ps-6 ps-sm-0 pb-lg-9 sub-heading">
 
               SHARE YOUR MEMORIES
 
@@ -213,31 +205,55 @@
 
           </div>
 
-          <div class="row justify-content-center justify-content-md-end pe-md-8">
+          <div data-aos="fade-left" data-aos-offset="-800" class="col-48">
 
-            <div class="col-42 col-md-40 pb-9 pb-md-8">
+            <div class="row justify-content-center">
 
-              <div class="row justify-content-between">
+              <div class="col-42 col-lg-40 pb-lg-9">
 
-                <div class="col-14 primary-border p-2 p-xl-3">
+                <div class="row justify-content-between">
 
-                  <img src="./images/dancing.webp" alt="Couple dancing outside in the park" width="300" height="300">
+                  <div class="col-14 primary-border p-2 p-xl-3">
 
-                </div>
+                    <img src="./images/dancing.webp" alt="Couple dancing outside in the park" width="300" height="300">
 
-                <div class="col-14 primary-border p-2 p-xl-3">
+                  </div>
 
-                  <img src="./images/nature.webp" alt="Grandparents and grandchildren walking down a hill" width="300" height="300">
+                  <div class="col-14 primary-border p-2 p-xl-3">
 
-                </div>
+                    <img src="./images/nature.webp" alt="Grandparents and grandchildren walking down a hill" width="300" height="300">
 
-                <div class="col-14 primary-border p-2 p-xl-3">
+                  </div>
 
-                  <img src="./images/grandparents-kids.webp" alt="Grandparents and grandchildren embracing" width="300" height="300">
+                  <div class="col-14 primary-border p-2 p-xl-3">
+
+                    <img src="./images/grandparents-kids.webp" alt="Grandparents and grandchildren embracing" width="300" height="300">
+
+                  </div>
 
                 </div>
 
               </div>
+
+            </div>
+
+          </div>
+
+          <div data-aos="fade-up" data-aos-offset="-800" class="d-none d-lg-block col-48 align-self-end medium-border mt-9">
+
+              <div class="d-flex">
+
+                <div class="bg-primary-1 rounded p-6 mb-6 mx-6">
+
+                </div>
+
+                <div class="bg-medium rounded p-6 mb-6 mx-6">
+
+                </div>
+
+                <div class="bg-primary-1 rounded p-6 mb-6 mx-6">
+
+                </div>
 
             </div>
 
@@ -247,39 +263,33 @@
 
       </div>
 
-    </div>
-
-    <div class="row cta header-brochour-cta justify-content-center">
-
-      <div class="col-48">
+      <div data-aos="fade-up" data-aos-offset="-800" class="col-48 col-lg-20 cta header-brochour-cta justify-content-center position-relative mt-15 mt-sm-16 mt-lg-0">
 
         <a href="./schedule.php">
 
-          <div class="row h-100 justify-content-center position-relative">
+          <div class="shapes-1 position-absolute d-lg-none"></div>
 
-            <div class="col-48 bg-medium position-relative">
+          <div class="d-flex h-100 flex-column">
 
-              <div class="cta-main h-100 bg-primary-main">
+            <div class="bg-medium flex-fill">
 
-                <div class="row h-100 justify-content-center align-items-md-center pb-9 pt-6 py-md-9">
+              <div class="cta-main h-100 bg-primary-main pb-9 pb-sm-12 pt-sm-7 pt-lg-14">
 
-                    <div class="col-39 col-xxl-32 me-xxl-16">
+                <div class="row justify-content-center">
 
-                      <div class="d-flex flex-wrap">
+                    <div class="col-39">
 
-                        <p class="m-0 text-md-center text-lg-start">
+                      <p class="m-0">
 
-                          <b class="d-block mb-5 text-start">
+                        <b class="d-block mb-6">
 
-                            Get together
+                          Get together
 
-                          </b>
+                        </b>
 
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat, leo ac varius ullamcorper, lacus purus venenatis ex, eget dictum est turpis sit amet nisl. Ut vulputate lorem at justo ornare imperdiet. Suspendisse potenti. Aenean at viverra purus, in laoreet purus.
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam pretium ipsum quis sapien ultricies, ut hendrerit odio porttitor. Nullam eleifend mi magna, in congue massa varius nec. Pellentesque iaculis nisi quis tincidunt consectetur.
 
-                        </p>
-
-                      </div>
+                      </p>
 
                     </div>
 
@@ -289,31 +299,25 @@
 
             </div>
 
-            <div class="col-48 position-relative">
+            <div class="row bg-primary-main">
 
-              <div class="row h-100 bg-primary-main">
+                <div class="col-39 bg-medium cta-button-container d-flex align-items-center justify-content-lg-center py-9 px-7">
 
-                  <div class="col-39 col-lg-19 col-xl-16 col-xxl-12 bg-medium cta-button-container d-flex align-items-center py-9 px-6 py-md-6 px-sm-8">
+                  <h2>
 
-                    <h2>
+                    Schedule Consultation
 
-                      Schedule consultation
+                  </h2>
 
-                    </h2>
-
-                  </div>
-
-              </div>
+                </div>
 
             </div>
-
-            <div class="shapes-1 position-absolute"></div>
-
-            <div class="shapes-2 position-absolute"></div>
 
           </div>
 
         </a>
+
+        <div class="shapes-2 position-absolute d-lg-none"></div>
 
       </div>
 

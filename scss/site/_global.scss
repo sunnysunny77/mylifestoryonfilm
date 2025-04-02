@@ -20,6 +20,10 @@ body {
     border-radius: 3px;
 }
 
+.medium-border {
+    border-bottom: 4px solid $medium;
+}
+
 .secondary-border-top {
     border-top: 1.5px solid $secondary;
 }

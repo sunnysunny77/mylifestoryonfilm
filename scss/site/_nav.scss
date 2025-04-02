@@ -21,10 +21,13 @@ button.navbar-toggler {
     &.navbar-toggler-navbar-collapse .slider_nav-bar {
         background-color: $primary-2;
     }
-    &.navbar-toggler-full .slider_nav-bar {
-        background-color: $primary-2;
-        @include min_md {
-            background-color: $loud;
+    &.navbar-toggler-full {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 998;
+        .slider_nav-bar {
+            background-color: $primary-2;
         }
     }
     &.navbar-toggler-small .slider_nav-bar {
