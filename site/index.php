@@ -301,7 +301,7 @@
 
             <div class="row bg-alpha">
 
-                <div class="col-39 bg-echo cta-button-container d-flex align-items-center justify-content-lg-center py-9 px-7">
+                <div class="col-39 bg-echo cta-button-container d-flex align-items-center justify-content-xxl-center py-9 px-7">
 
                   <h2>
 

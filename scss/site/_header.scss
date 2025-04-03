@@ -78,15 +78,21 @@
                 opacity: 0.9;
             }
         }
-        h2 {
-            font-family: $font;
-        }
         .bg-echo {
             z-index: 1;
         }
         a:hover {
             .shapes-1 {
                 background-color: $alpha-1;
+            }
+            h2 {
+                transform: translateX(6.6%);
+                @include min-md {
+                    transform: translateX(6.6%);
+                }
+                @include min-xxl {
+                    transform: translateX(12.5%);
+                }
             }
         }
     }
