@@ -1,7 +1,6 @@
 .header-brochure {
     @include min_lg{
         height: 100dvh;
-
     }
     @include min_lg_portrait {
         max-height: 860px;
