@@ -327,7 +327,7 @@
 
         </div>
 
-        <div class="col-48 flex-fill">
+        <div data-aos="fade-up" class="col-48 flex-fill">
 
           <div class="row h-100 justify-content-center align-items-center">
 
