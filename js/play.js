@@ -1,21 +1,23 @@
 import { events } from "./utillites.js";
 
-const video_state = () => {
+const video_state = (e) => {
 
-    const pause_video = document.querySelector(".pause-video");
-    const play_video = document.querySelector(".play-video");
-    const video = document.querySelector(".play");
+  const video = document.querySelector(".play");
+  const pause_video = document.querySelector(".pause-video");
+  const play_video = document.querySelector(".play-video");
 
-    pause_video.classList.toggle("has-pause");
-    play_video.classList.toggle("has-play");
+  if (video.paused) {
 
-    if (video.paused) { 
-      video.play(); 
-    } else { 
-      video.pause();
-    }
-  };
+    video.play();
+    play_video.classList.remove("has-play");
+    if (e.type === "click") pause_video.classList.add("has-pause");
+  } else {
 
+    video.pause();
+    play_video.classList.add("has-play");
+    pause_video.classList.remove("has-pause");
+  }
+};
 
 export const play = () => {
 
@@ -29,6 +31,12 @@ export const play = () => {
 
     for (const index of controlls) {
 
-        events(index, "click", video_state);
+        if ("ontouchstart" in window) {
+
+          events(index, "touchstart", video_state);
+        } else {
+
+          events(index, "click", video_state);
+        }
     }
 };
