@@ -806,7 +806,7 @@
 
     </div>
 
-  <footer>
+    </footer>
 
   <script src="./js/app.min.js" defer></script>
 
