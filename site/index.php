@@ -69,7 +69,7 @@
 
               <ul class="list-unstyled bravo-border-top ps-2">
 
-                <li class="mt-3">
+                <li class="mt-3 mb-1">
 
                   <a class="active" href="./">Home</a>
 

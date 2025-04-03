@@ -61,7 +61,7 @@
 
                 </li>
 
-                <li>
+                <li class="mb-1">
 
                   <a class="active" href="./information.php">Q<span class="small">&</span>A Information</a>
 
@@ -333,13 +333,13 @@
 
               <ul class="list-unstyled text-sm-end text-lg-start mb-0 me-sm-2 ms-lg-2 me-lg-0 mb-9">
 
-                <li class="mb-1">
+                <li>
 
                   <a href="./">Home</a>
 
                 </li>
 
-                <li>
+                <li class="mb-1">
 
                   <a class="active" href="./information.php">Q<span class="small">&</span>A Information</a>
 
