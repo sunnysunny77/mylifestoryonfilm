@@ -8,12 +8,16 @@ body {
     overflow: hidden;
 }
 
+// helper
+
 .hidden {
     width: 0;
     height: 0;
     display: block;
     overflow: hidden;
 }
+
+// border
 
 .alpha-border {
     border: 3px solid $alpha;
@@ -28,9 +32,13 @@ body {
     border-top: 1.5px solid $bravo;
 }
 
+// color
+
 .color-alpha-2 {
     color: $alpha-2;
 }
+
+// background
 
 .bg-white {
     background-color: $white;
@@ -52,6 +60,8 @@ body {
     background-color: $echo;
 }
 
+// scrollbar
+
 .os-theme-body {
     --os-size: 7px;
     &.has-right {
@@ -68,6 +78,8 @@ body {
 .os-theme-body .os-scrollbar-track {
     background: transparent;
 }
+
+// button
 
 .c-custom-1 {
     margin: 0;
@@ -117,6 +129,8 @@ body {
         }
     }
 }
+
+// heading
 
 h2 {
     font-size: clamp(20px, 3.25vw, 26px);
