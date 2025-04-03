@@ -243,7 +243,7 @@
 
               </div>
 
-              <div data-aos="fade-up" data-aos-offset="-800" class="d-none d-lg-block col-48 align-self-end echo-border mt-9">
+              <div data-aos="fade-up" data-aos-offset="-800" class="d-none d-lg-block col-48 align-self-end echo-border mt-11">
 
                   <div class="d-flex">
 
@@ -277,7 +277,7 @@
 
                 <div class="bg-echo flex-fill">
 
-                  <div class="cta-main h-100 bg-alpha pb-9 pb-sm-12 pb-md-13 pt-sm-7 pt-lg-14 pb-lg-9">
+                  <div class="cta-main h-100 bg-alpha pb-9 pb-sm-12 pb-md-13 pt-sm-7 pt-lg-12 pb-lg-9">
 
                     <div class="row justify-content-center">
 
@@ -333,7 +333,7 @@
 
             <div class="col-36 col-xl-24">
 
-              <h2 class="text-center py-11 py-md-13 py-lg-9">
+              <h2 class="text-center py-11 py-md-13 py-lg-12">
 
                 <span class="heading-inner bg-alpha-1 me-1 mb-1"></span>
 

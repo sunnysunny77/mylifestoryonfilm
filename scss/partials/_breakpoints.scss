@@ -39,3 +39,9 @@
         @content;
     }
 }
+
+@mixin min_lg_portrait {
+    @media only screen and (min-width: 992px) and (orientation: portrait) {
+        @content;
+    }
+}

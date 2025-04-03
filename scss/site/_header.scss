@@ -1,6 +1,13 @@
 .header-brochure {
-    @include min_lg {
-        min-height: 100dvh;
+    @include min_lg{
+        height: 100dvh;
+
+    }
+    @include min_lg_portrait {
+        max-height: 860px;
+    }
+    @include min_xl {
+        max-height: initial;
     }
     .header-brochure-main {
         img {
