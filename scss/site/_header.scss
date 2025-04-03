@@ -5,9 +5,6 @@
     @include min_lg_portrait {
         min-height: 860px;
     }
-    @include min_xl {
-        min-height: 100dvh;
-    }
     .header-brochure-main {
         img {
             aspect-ratio: 3/2;
