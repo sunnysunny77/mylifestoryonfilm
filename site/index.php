@@ -353,7 +353,7 @@
 
   </header>
 
-  <main>
+  <main class="pb-11 pb-md-13">
 
     <div data-aos="fade-up" class="container-sm text-video">
 
