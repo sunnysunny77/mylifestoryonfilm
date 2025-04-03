@@ -175,9 +175,15 @@
 
       </button>
 
+      <h1 class="hidden">
+
+        Q&A Information
+
+      </h1>
+
       <a href="./">
 
-        <h1 id="skip" class="text-end px-8 py-5 m-0">
+        <h2 id="skip" class="text-end px-8 py-5 m-0">
 
           <span>
 
@@ -191,7 +197,7 @@
 
           </span>
 
-        </h1>
+        </h2>
 
       </a>
 
@@ -201,7 +207,7 @@
 
       <div class="col-41 col-lg-31 col-xxl-36 small-header-bg order-2 order-lg-1 px-8 pb-9 pt-3 py-lg-5 text-end text-lg-start">
 
-        <p class="m-0">
+        <p class="m-0 p-left">
 
           SHARE YOUR MEMORIES
 
@@ -211,11 +217,11 @@
 
       <div class="col-41 col-lg-17 col-xxl-12 bg-echo small-header-radius order-1 order-lg-2 px-8 pt-8 py-lg-5">
 
-        <h2 class="m-0 text-end text-lg-center">
+        <p class="m-0 text-end text-lg-center p-right">
 
           Exchange stories
 
-        </h2>
+        </p>
 
       </div>
 
