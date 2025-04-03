@@ -1,4 +1,7 @@
 .header-brochure {
+    @include min_lg {
+        min-height: 100dvh;
+    }
     .header-brochure-main {
         img {
             aspect-ratio: 3/2;

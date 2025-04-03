@@ -173,61 +173,69 @@
 
   <header class="header-brochure d-flex flex-wrap align-items-stretch">
 
-    <div class="row justify-content-between">
+    <div class="row">
 
-      <div class="col-48 col-lg-28 header-brochure-main bg-white pt-12 pt-lg-0">
+      <div class="col-48 d-flex flex-column">
 
-        <div class="row h-100 align-items-lg-center">
+        <div class="row justify-content-between">
 
-          <div data-aos="fade-left" data-aos-offset="-800" class="col-42">
+          <div class="col-48 col-lg-28 header-brochure-main bg-white pt-12 pt-lg-0">
 
-            <h1 id="skip" class="text-end mb-1 mb-lg-3 ps-6 ps-sm-0 pt-lg-9">
+            <div class="row h-100 align-items-lg-center">
 
-              <span>
+              <div data-aos="fade-left" data-aos-offset="-800" class="col-42">
 
-                My Life Story
+                <h1 id="skip" class="text-end mb-1 mb-lg-3 ps-6 ps-sm-0 pt-lg-9">
 
-              </span>
+                  <span>
 
-              <span>
+                    My Life Story
 
-                On Film
+                  </span>
 
-              </span>
+                  <span>
 
-            </h1>
+                    On Film
 
-            <p class="text-end mb-9 mb-lg-0 ps-6 ps-sm-0 pb-lg-9 sub-heading">
+                  </span>
 
-              SHARE YOUR MEMORIES
+                </h1>
 
-            </p>
+                <p class="text-end mb-9 mb-lg-0 ps-6 ps-sm-0 pb-lg-9 sub-heading">
 
-          </div>
+                  SHARE YOUR MEMORIES
 
-          <div data-aos="fade-left" data-aos-offset="-800" class="col-48 mb-md-9 mb-lg-0">
+                </p>
 
-            <div class="row justify-content-center">
+              </div>
 
-              <div class="col-42 col-lg-40 pb-lg-9">
+              <div data-aos="fade-left" data-aos-offset="-800" class="col-48 mb-md-9 mb-lg-0">
 
-                <div class="row justify-content-between">
+                <div class="row justify-content-center">
 
-                  <div class="col-14 alpha-border p-2 p-xl-3">
+                  <div class="col-42 col-lg-40 pb-lg-9">
 
-                    <img src="./images/dancing.webp" alt="Couple dancing outside in the park" width="300" height="300">
+                    <div class="row justify-content-between">
 
-                  </div>
+                      <div class="col-14 alpha-border p-2 p-xl-3">
 
-                  <div class="col-14 alpha-border p-2 p-xl-3">
+                        <img src="./images/dancing.webp" alt="Couple dancing outside in the park" width="300" height="300">
 
-                    <img src="./images/nature.webp" alt="Grandparents and grandchildren walking down a hill" width="300" height="300">
+                      </div>
 
-                  </div>
+                      <div class="col-14 alpha-border p-2 p-xl-3">
 
-                  <div class="col-14 alpha-border p-2 p-xl-3">
+                        <img src="./images/nature.webp" alt="Grandparents and grandchildren walking down a hill" width="300" height="300">
 
-                    <img src="./images/grandparents-kids.webp" alt="Grandparents and grandchildren embracing" width="300" height="300">
+                      </div>
+
+                      <div class="col-14 alpha-border p-2 p-xl-3">
+
+                        <img src="./images/grandparents-kids.webp" alt="Grandparents and grandchildren embracing" width="300" height="300">
+
+                      </div>
+
+                    </div>
 
                   </div>
 
@@ -235,61 +243,19 @@
 
               </div>
 
-            </div>
+              <div data-aos="fade-up" data-aos-offset="-800" class="d-none d-lg-block col-48 align-self-end echo-border mt-9">
 
-          </div>
+                  <div class="d-flex">
 
-          <div data-aos="fade-up" data-aos-offset="-800" class="d-none d-lg-block col-48 align-self-end echo-border mt-9">
+                    <div class="bg-alpha-1 rounded p-6 mb-6 mx-6">
 
-              <div class="d-flex">
+                    </div>
 
-                <div class="bg-alpha-1 rounded p-6 mb-6 mx-6">
+                    <div class="bg-echo rounded p-6 mb-6 mx-6">
 
-                </div>
+                    </div>
 
-                <div class="bg-echo rounded p-6 mb-6 mx-6">
-
-                </div>
-
-                <div class="bg-alpha-1 rounded p-6 mb-6 mx-6">
-
-                </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <div data-aos="fade-up" data-aos-offset="-800" class="col-48 col-lg-20 cta header-brochour-cta justify-content-center position-relative mt-15 mt-sm-16 mt-lg-0">
-
-        <a href="./schedule.php">
-
-          <div class="shapes-1 position-absolute d-lg-none"></div>
-
-          <div class="d-flex h-100 flex-column">
-
-            <div class="bg-echo flex-fill">
-
-              <div class="cta-main h-100 bg-alpha pb-9 pb-sm-12 pb-md-13 pt-sm-7 pt-lg-14 pb-lg-9">
-
-                <div class="row justify-content-center">
-
-                    <div class="col-39">
-
-                      <p class="m-0">
-
-                        <b class="d-block mb-6">
-
-                          Get together
-
-                        </b>
-
-                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam pretium ipsum quis sapien ultricies, ut hendrerit odio porttitor. Nullam eleifend mi magna, in congue massa varius nec. Pellentesque iaculis nisi quis tincidunt consectetur.
-
-                      </p>
+                    <div class="bg-alpha-1 rounded p-6 mb-6 mx-6">
 
                     </div>
 
@@ -299,25 +265,87 @@
 
             </div>
 
-            <div class="row bg-alpha">
+          </div>
 
-                <div class="col-39 bg-echo cta-button-container d-flex align-items-center justify-content-xxl-center py-9 px-7">
+          <div data-aos="fade-up" data-aos-offset="-800" class="col-48 col-lg-20 cta header-brochour-cta justify-content-center position-relative mt-15 mt-sm-16 mt-lg-0">
 
-                  <h2>
+            <a href="./schedule.php">
 
-                    Schedule Consultation
+              <div class="shapes-1 position-absolute d-lg-none"></div>
 
-                  </h2>
+              <div class="d-flex h-100 flex-column">
+
+                <div class="bg-echo flex-fill">
+
+                  <div class="cta-main h-100 bg-alpha pb-9 pb-sm-12 pb-md-13 pt-sm-7 pt-lg-14 pb-lg-9">
+
+                    <div class="row justify-content-center">
+
+                        <div class="col-39">
+
+                          <p class="m-0">
+
+                            <b class="d-block mb-6">
+
+                              Get together
+
+                            </b>
+
+                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam pretium ipsum quis sapien ultricies, ut hendrerit odio porttitor. Nullam eleifend mi magna, in congue massa varius nec. Pellentesque iaculis nisi quis tincidunt consectetur.
+
+                          </p>
+
+                        </div>
+
+                    </div>
+
+                  </div>
 
                 </div>
+
+                <div class="row bg-alpha">
+
+                    <div class="col-39 bg-echo cta-button-container d-flex align-items-center justify-content-xxl-center py-9 px-7">
+
+                      <h2>
+
+                        Schedule Consultation
+
+                      </h2>
+
+                    </div>
+
+                </div>
+
+              </div>
+
+            </a>
+
+            <div class="shapes-2 position-absolute d-lg-none"></div>
+
+          </div>
+
+        </div>
+
+        <div class="col-48 flex-fill">
+
+          <div class="row h-100 justify-content-center align-items-center">
+
+            <div class="col-36 col-xl-24">
+
+              <h2 class="text-center py-11 py-md-13 py-lg-9">
+
+                <span class="heading-inner bg-alpha-1 me-1 mb-1"></span>
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eleifend viverra odio eu placerat.
+
+              </h2>
 
             </div>
 
           </div>
 
-        </a>
-
-        <div class="shapes-2 position-absolute d-lg-none"></div>
+        </div>
 
       </div>
 
@@ -325,23 +353,11 @@
 
   </header>
 
-  <main class="py-11 py-md-13">
+  <main>
 
     <div data-aos="fade-up" class="container-sm text-video">
 
       <div class="row justify-content-center">
-
-        <div class="col-36 mb-10 mb-md-12 mb-lg-11 mb-xxl-12">
-
-          <h2 class="text-center">
-
-            <span class="heading-inner bg-alpha-1 me-1 mb-1"></span>
-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eleifend viverra odio eu placerat.
-
-          </h2>
-
-        </div>
 
         <div class="col-39 col-sm-48">
 
