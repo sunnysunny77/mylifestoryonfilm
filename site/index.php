@@ -17,15 +17,15 @@
 
   <a accesskey="s" href="#skip"><span class="hidden">Skip Navigation</span></a>
 
-  <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-full">
+  <button data-aos="fade-right" aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-full p-5">
 
     <span class="hidden">Open menu</span>
 
-    <div class="p-5" data-aos="fade-right">
+    <div>
 
-      <div class="slider_nav-bar slider_nav-bar-1"></div>
-      <div class="slider_nav-bar slider_nav-bar-2"></div>
-      <div class="slider_nav-bar slider_nav-bar-3"></div>
+        <div class="slider_nav-bar slider_nav-bar-1"></div>
+        <div class="slider_nav-bar slider_nav-bar-2"></div>
+        <div class="slider_nav-bar slider_nav-bar-3"></div>
 
     </div>
 
