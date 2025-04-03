@@ -1,5 +1,5 @@
 footer {
-    background-color: $primary;
+    background-color: $alpha;
     color: $white;
     font-size: 16.5px;
     a {
@@ -15,7 +15,7 @@ footer {
                 text-decoration-color 0.3s ease-in-out;
         }
         &:hover {
-            color: $light;
+            color: $delta;
             &.active {
                 text-decoration-color: $white;
                 color: $white;

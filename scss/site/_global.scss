@@ -15,41 +15,41 @@ body {
     overflow: hidden;
 }
 
-.primary-border {
-    border: 3px solid $primary;
+.alpha-border {
+    border: 3px solid $alpha;
     border-radius: 3px;
 }
 
-.medium-border {
-    border-bottom: 4px solid $medium;
+.echo-border {
+    border-bottom: 4px solid $echo;
 }
 
-.secondary-border-top {
-    border-top: 1.5px solid $secondary;
+.bravo-border-top {
+    border-top: 1.5px solid $bravo;
 }
 
-.color-primary-2 {
-    color: $primary-2;
+.color-alpha-2 {
+    color: $alpha-2;
 }
 
 .bg-white {
     background-color: $white;
 }
 
-.bg-primary-main {
-    background-color: $primary;
+.bg-alpha {
+    background-color: $alpha;
 }
 
-.bg-loud {
-    background-color: $loud;
+.bg-foxtrot {
+    background-color: $foxtrot;
 }
 
-.bg-primary-1 {
-    background-color: $primary-1;
+.bg-alpha-1 {
+    background-color: $alpha-1;
 }
 
-.bg-medium {
-    background-color: $medium;
+.bg-echo {
+    background-color: $echo;
 }
 
 .os-theme-body {
@@ -60,7 +60,7 @@ body {
 }
 
 .os-theme-body .os-scrollbar-handle {
-    background: $secondary-1;
+    background: $bravo-1;
     border-radius: 0px;
     height: 85px;
 }
@@ -97,7 +97,7 @@ body {
         display: flex;
         width: 100%;
         height: 100%;
-        background-color: $primary;
+        background-color: $alpha;
         border-radius: 50%;
         transition: transform 0.4s ease-in-out;
         will-change: transform;
@@ -121,7 +121,7 @@ body {
 h2 {
     font-size: clamp(20px, 3.25vw, 26px);
     font-weight: 400;
-    color: $secondary;
+    color: $bravo;
     letter-spacing: 0.05em;
     line-height: 1.5;
     .heading-inner {

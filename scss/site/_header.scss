@@ -13,7 +13,7 @@
             display: block;
             font-size: clamp(26px, 4vw, 30px);
             font-weight: 400;
-            color: $secondary;
+            color: $bravo;
             letter-spacing: 0.05em;
             line-height: 1.5;
             font-family: $font-1;
@@ -24,7 +24,7 @@
         .sub-heading {
             font-size: clamp(20px, 3vw, 24px);
             font-weight: 300;
-            color: $secondary;
+            color: $bravo;
             letter-spacing: 0.05em;
             line-height: 1.5;
             font-family: $font-1;
@@ -43,7 +43,7 @@
             left: 0;
             width: 133%;
             z-index: 0;
-            background-color: $primary;
+            background-color: $alpha;
             @include min_sm {
                 width: 123%;
                 top: -33%;
@@ -81,12 +81,12 @@
         h2 {
             font-family: $font;
         }
-        .bg-medium {
+        .bg-echo {
             z-index: 1;
         }
         a:hover {
             .shapes-1 {
-                background-color: $primary-1;
+                background-color: $alpha-1;
             }
         }
     }
@@ -102,7 +102,7 @@
     h2,
     p {
         color: $white;
-        color: $secondary;
+        color: $bravo;
         letter-spacing: 0.05em;
         line-height: 1.5;
         color: $white;
@@ -143,9 +143,9 @@
         border-top-left-radius: 40px;
     }
     .small-header-bg {
-        background-color: $medium;
+        background-color: $echo;
         @include min_lg {
-            background-color: $primary-1;
+            background-color: $alpha-1;
         }
     }
     .shapes-1 {

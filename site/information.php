@@ -53,7 +53,7 @@
 
             <li class="mt-2 pb-2">
 
-              <ul class="list-unstyled secondary-border-top ps-2">
+              <ul class="list-unstyled bravo-border-top ps-2">
 
                 <li class="mt-3">
 
@@ -79,7 +79,7 @@
 
             <li class="mt-3">
 
-              <ul class="list-unstyled secondary-border-top ps-2">
+              <ul class="list-unstyled bravo-border-top ps-2">
 
                 <li class="mt-3">
 
@@ -109,7 +109,7 @@
 
           <ul class="col-42 col-sm-16 col-xl-10 col-xxl-8 list-unstyled mb-0 mt-2 p-4">
 
-            <li class="color-primary-2 ms-2 ms-sm-4">
+            <li class="color-alpha-2 ms-2 ms-sm-4">
 
               Socials
 
@@ -117,7 +117,7 @@
 
             <li class="mt-2">
 
-              <ul class="list-unstyled secondary-border-top d-flex flex-sm-column">
+              <ul class="list-unstyled bravo-border-top d-flex flex-sm-column">
 
                 <li class="mt-2">
 
@@ -157,7 +157,7 @@
 
   </div>
 
-  <header class="container-fluid small-header bg-primary-1">
+  <header class="container-fluid small-header bg-alpha-1">
 
     <div class="d-flex flex-wrap justify-content-between align-items-start">
 
@@ -209,7 +209,7 @@
 
       </div>
 
-      <div class="col-41 col-lg-17 col-xxl-12 bg-medium small-header-radius order-1 order-lg-2 px-8 pt-8 py-lg-5">
+      <div class="col-41 col-lg-17 col-xxl-12 bg-echo small-header-radius order-1 order-lg-2 px-8 pt-8 py-lg-5">
 
         <h2 class="m-0 text-end text-lg-center">
 
@@ -233,9 +233,9 @@
 
         <div class="row justify-content-center">
 
-          <div class="col-39 col-sm-48 bg-medium">
+          <div class="col-39 col-sm-48 bg-echo">
 
-            <div class="cta-main bg-primary-1 pb-9 pt-8 py-md-11 pt-lg-12">
+            <div class="cta-main bg-alpha-1 pb-9 pt-8 py-md-11 pt-lg-12">
 
               <div class="row justify-content-center">
 
@@ -257,9 +257,9 @@
 
           <div class="col-39 col-sm-48">
 
-            <div class="row bg-primary-1">
+            <div class="row bg-alpha-1">
 
-                <div class="col-39 col-lg-19 bg-medium cta-button-container d-flex align-items-center justify-content-md-center py-9 px-6 ps-md-0 pe-md-9 py-lg-7">
+                <div class="col-39 col-lg-19 bg-echo cta-button-container d-flex align-items-center justify-content-md-center py-9 px-6 ps-md-0 pe-md-9 py-lg-7">
 
                   <h2>
 

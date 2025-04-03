@@ -2,20 +2,20 @@
     a {
         text-decoration: none;
         color: $white;
-        .bg-primary-1 {
+        .bg-alpha-1 {
             transition: background-color 0.3s ease-in-out;
             will-change: background-color;
         }
-        .bg-primary-main {
+        .bg-alpha {
             transition: background-color 0.3s ease-in-out;
             will-change: background-color;
         }
         &:hover {
-            .bg-primary-1 {
-                background-color: $primary-3;
+            .bg-alpha-1 {
+                background-color: $alpha-3;
             }
-            .bg-primary-main {
-                background-color: $primary-1;
+            .bg-alpha {
+                background-color: $alpha-1;
             }
             h2 {
                 transform: translateX(6.6%);

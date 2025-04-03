@@ -1,7 +1,7 @@
 #three-col-box {
     p {
-        border: 2px solid $medium;
-        color: $primary;
+        border: 2px solid $echo;
+        color: $alpha;
         position: relative;
         font-size: clamp(15px, 2vw, 16px);
         &::after {
@@ -11,7 +11,7 @@
             left: calc(50% - 25px);
             border-top: 25px solid transparent;
             border-right: 25px solid transparent;
-            border-bottom: 25px solid $medium;
+            border-bottom: 25px solid $echo;
             border-left: 25px solid transparent;
         }
     }

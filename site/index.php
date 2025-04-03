@@ -67,7 +67,7 @@
 
             <li class="mt-2 pb-2">
 
-              <ul class="list-unstyled secondary-border-top ps-2">
+              <ul class="list-unstyled bravo-border-top ps-2">
 
                 <li class="mt-3">
 
@@ -93,7 +93,7 @@
 
             <li class="mt-3">
 
-              <ul class="list-unstyled secondary-border-top ps-2">
+              <ul class="list-unstyled bravo-border-top ps-2">
 
                 <li class="mt-3">
 
@@ -123,7 +123,7 @@
 
           <ul class="col-42 col-sm-16 col-xl-10 col-xxl-8 list-unstyled mb-0 mt-2 p-4">
 
-            <li class="color-primary-2 ms-2 ms-sm-4">
+            <li class="color-alpha-2 ms-2 ms-sm-4">
 
               Socials
 
@@ -131,7 +131,7 @@
 
             <li class="mt-2">
 
-              <ul class="list-unstyled secondary-border-top d-flex flex-sm-column">
+              <ul class="list-unstyled bravo-border-top d-flex flex-sm-column">
 
                 <li class="mt-2">
 
@@ -213,19 +213,19 @@
 
                 <div class="row justify-content-between">
 
-                  <div class="col-14 primary-border p-2 p-xl-3">
+                  <div class="col-14 alpha-border p-2 p-xl-3">
 
                     <img src="./images/dancing.webp" alt="Couple dancing outside in the park" width="300" height="300">
 
                   </div>
 
-                  <div class="col-14 primary-border p-2 p-xl-3">
+                  <div class="col-14 alpha-border p-2 p-xl-3">
 
                     <img src="./images/nature.webp" alt="Grandparents and grandchildren walking down a hill" width="300" height="300">
 
                   </div>
 
-                  <div class="col-14 primary-border p-2 p-xl-3">
+                  <div class="col-14 alpha-border p-2 p-xl-3">
 
                     <img src="./images/grandparents-kids.webp" alt="Grandparents and grandchildren embracing" width="300" height="300">
 
@@ -239,19 +239,19 @@
 
           </div>
 
-          <div data-aos="fade-up" data-aos-offset="-800" class="d-none d-lg-block col-48 align-self-end medium-border mt-9">
+          <div data-aos="fade-up" data-aos-offset="-800" class="d-none d-lg-block col-48 align-self-end echo-border mt-9">
 
               <div class="d-flex">
 
-                <div class="bg-primary-1 rounded p-6 mb-6 mx-6">
+                <div class="bg-alpha-1 rounded p-6 mb-6 mx-6">
 
                 </div>
 
-                <div class="bg-medium rounded p-6 mb-6 mx-6">
+                <div class="bg-echo rounded p-6 mb-6 mx-6">
 
                 </div>
 
-                <div class="bg-primary-1 rounded p-6 mb-6 mx-6">
+                <div class="bg-alpha-1 rounded p-6 mb-6 mx-6">
 
                 </div>
 
@@ -271,9 +271,9 @@
 
           <div class="d-flex h-100 flex-column">
 
-            <div class="bg-medium flex-fill">
+            <div class="bg-echo flex-fill">
 
-              <div class="cta-main h-100 bg-primary-main pb-9 pb-sm-12 pb-md-13 pt-sm-7 pt-lg-14 pb-lg-9">
+              <div class="cta-main h-100 bg-alpha pb-9 pb-sm-12 pb-md-13 pt-sm-7 pt-lg-14 pb-lg-9">
 
                 <div class="row justify-content-center">
 
@@ -299,9 +299,9 @@
 
             </div>
 
-            <div class="row bg-primary-main">
+            <div class="row bg-alpha">
 
-                <div class="col-39 bg-medium cta-button-container d-flex align-items-center justify-content-lg-center py-9 px-7">
+                <div class="col-39 bg-echo cta-button-container d-flex align-items-center justify-content-lg-center py-9 px-7">
 
                   <h2>
 
@@ -335,7 +335,7 @@
 
           <h2 class="text-center">
 
-            <span class="heading-inner bg-primary-1 me-1 mb-1"></span>
+            <span class="heading-inner bg-alpha-1 me-1 mb-1"></span>
 
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eleifend viverra odio eu placerat.
 
@@ -347,7 +347,7 @@
 
           <div class="row justify-content-center">
 
-            <div class="col-48 col-lg-24 video-card bg-medium d-flex flex-wrap align-items-start">
+            <div class="col-48 col-lg-24 video-card bg-echo d-flex flex-wrap align-items-start">
 
               <p class="d-flex h-100 flex-column justify-content-between mb-0 ">
 
@@ -406,7 +406,7 @@
 
           <h2 data-aos="fade-right" class="ms-xl-10 mb-9 mb-md-7">
 
-          <span class="heading-inner bg-primary-1 me-1 mb-1"></span>
+          <span class="heading-inner bg-alpha-1 me-1 mb-1"></span>
 
             Our Process
 
@@ -564,9 +564,9 @@
 
         <div class="row justify-content-center">
 
-          <div class="col-39 col-sm-48 bg-medium">
+          <div class="col-39 col-sm-48 bg-echo">
 
-            <div class="cta-main bg-primary-1 pb-9 pt-8 py-md-11 pt-lg-12">
+            <div class="cta-main bg-alpha-1 pb-9 pt-8 py-md-11 pt-lg-12">
 
               <div class="row justify-content-center">
 
@@ -588,9 +588,9 @@
 
           <div class="col-39 col-sm-48">
 
-            <div class="row bg-primary-1">
+            <div class="row bg-alpha-1">
 
-                <div class="col-39 col-lg-19 bg-medium cta-button-container d-flex align-items-center justify-content-md-center py-9 px-6 ps-md-0 pe-md-9 py-lg-7">
+                <div class="col-39 col-lg-19 bg-echo cta-button-container d-flex align-items-center justify-content-md-center py-9 px-6 ps-md-0 pe-md-9 py-lg-7">
 
                   <h2>
 

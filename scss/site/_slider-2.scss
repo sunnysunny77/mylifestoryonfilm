@@ -34,7 +34,7 @@
             right: calc(50% - 1px);
             top: 0;
             bottom: 0;
-            background-color: $primary;
+            background-color: $alpha;
             @include min_md {
                 bottom: -200px;
             }
@@ -61,7 +61,7 @@
                 position: absolute;
                 height: 13px;
                 width: 13px;
-                background: $primary;
+                background: $alpha;
                 border-radius: 50%;
                 right: calc(50% - 7px);
                 bottom: calc(0% + 17px);
@@ -96,7 +96,7 @@
     z-index: 1;
     p {
         line-height: 2;
-        color: $primary;
+        color: $alpha;
         font-size: clamp(14.5px, 2vw, 16px);
         background-color: $white;
         padding: 33px 0;
@@ -118,7 +118,7 @@
         right: calc(50% - 1px);
         top: 0;
         bottom: 16.5px;
-        background-color: $primary;
+        background-color: $alpha;
     }
     .timeline-button {
         width: 33px;

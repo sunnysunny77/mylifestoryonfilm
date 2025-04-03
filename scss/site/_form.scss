@@ -1,12 +1,12 @@
 .form {
     form {
-        background-color: $primary;
+        background-color: $alpha;
         color: $white;
         input,
         textarea,
         .form-check-input {
             outline: none;
-            color: $secondary;
+            color: $bravo;
             border: 2px solid transparent;
             transition: 0.3s border ease-in-out;
             box-shadow: none;
@@ -15,7 +15,7 @@
         }
         textarea {
             resize: none;
-            scrollbar-color: $secondary-1 transparent;
+            scrollbar-color: $bravo-1 transparent;
             &::-webkit-scrollbar {
                 width: 7px;
             }
@@ -23,7 +23,7 @@
                 background: transparent;
             }
             &::-webkit-scrollbar-thumb {
-                background: $secondary-1;
+                background: $bravo-1;
             }
         }
         label {
@@ -31,7 +31,7 @@
         }
         input {
             &.has-input-error {
-                border: 2px solid $warning;
+                border: 2px solid $golf;
             }
         }
         input[type="checkbox"] {
@@ -43,11 +43,11 @@
         transition: color 0.3s ease-in-out;
         will-change: color;
         &.has-p-error {
-            color: $warning;
+            color: $golf;
         }
     }
     .form-side {
-        background-color: $medium;
+        background-color: $echo;
         h2,
         p {
             color: $white;
@@ -62,8 +62,8 @@
         }
         .shapes-1 {
             border-top: 12.5rem solid;
-            border-color: $primary;
-            background-color: $primary;
+            border-color: $alpha;
+            background-color: $alpha;
             transition: border-color 0.3s ease-in-out;
             will-change: border-color;
             border-top-right-radius: 100%;
@@ -92,16 +92,16 @@
             opacity: 1;
         }
         &.has-tooltip-error {
-            color: $warning;
+            color: $golf;
             opacity: 1;
         }
     }
     .button-container {
-        background-color: $primary-1;
+        background-color: $alpha-1;
         transition: background-color 0.3s ease-in-out;
         will-change: background-color;
         &:hover {
-            background-color: lighten($primary-1, 3%);
+            background-color: lighten($alpha-1, 3%);
         }
         input[type="submit"] {
             background-color: transparent;
