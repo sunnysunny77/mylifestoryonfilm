@@ -249,7 +249,8 @@
 
                     <p class="m-0">
 
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat, leo ac varius ullamcorper, lacus purus venenatis ex, eget dictum est turpis sit amet nisl. Ut vulputate lorem at justo ornare imperdiet. Suspendisse potenti. Aenean at viverra purus, in laoreet purus.
+                      Scheduling a consultation is the first step toward creating a meaningful keepsake where you can share your memories, exchange stories, and reminisce with loved ones.
+                      Through film, this is your chance to bring your family together and preserve your life story in a heartfelt, lasting way.
 
                     </p>
 

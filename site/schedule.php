@@ -289,7 +289,7 @@
 
               <p class="pb-14 ps-5 pe-9 pt-9 m-0">
               
-                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                We’re here to guide you with compassion, patience, and genuine care—because every story matters.
 
               </p>
 
@@ -453,7 +453,8 @@
 
                       <p class="m-0">
 
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat, leo ac varius ullamcorper, lacus purus venenatis ex, eget dictum est turpis sit amet nisl. Ut vulputate lorem at justo ornare imperdiet. Suspendisse potenti. Aenean at viverra purus, in laoreet purus.
+                        As part of our process, we ask thoughtful, guided questions to provide depth and context to your film.
+                        These questions are designed to help you share your memories, reflect on meaningful moments, and exchange stories that bring your life story to life.
 
                       </p>
 

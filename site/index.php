@@ -277,13 +277,13 @@
 
                 <div class="bg-echo flex-fill">
 
-                  <div class="cta-main h-100 bg-alpha pb-9 pb-sm-12 pb-md-13 pt-sm-7 pt-lg-12 pb-lg-9">
+                  <div class="cta-main h-100 bg-alpha pb-9 pb-sm-12 pb-md-13 pt-sm-7 pt-lg-7 pb-lg-9">
 
-                    <div class="row justify-content-center">
+                    <div class="row h-100 justify-content-center">
 
                         <div class="col-39">
 
-                          <p class="m-0">
+                          <p class="m-0 h-100 d-flex flex-column justify-content-center">
 
                             <b class="d-block mb-6">
 
@@ -291,7 +291,8 @@
 
                             </b>
 
-                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam pretium ipsum quis sapien ultricies, ut hendrerit odio porttitor. Nullam eleifend mi magna, in congue massa varius nec. Pellentesque iaculis nisi quis tincidunt consectetur.
+                            Scheduling a consultation is the first step toward creating a meaningful keepsake where you can share your memories, exchange stories, and reminisce with loved ones.
+                            Through film, this is your chance to bring your family together and preserve your life story in a heartfelt, lasting way.
 
                           </p>
 
@@ -337,7 +338,7 @@
 
                 <span class="heading-inner bg-alpha-1 me-1 mb-1"></span>
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eleifend viverra odio eu placerat.
+                Let’s get together and start planning how to capture the moments that matter most.
 
               </h2>
 
@@ -369,18 +370,21 @@
 
                 <b class="d-block w-100 p-3">
 
-                  Lorem ipsum dolor sit amet
+                  Case video
 
                 </b>
 
                 <span class="d-block w-100 px-5 pt-5 pb-8 pe-lg-9">
 
-                  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam pretium ipsum quis sapien ultricies, ut hendrerit odio porttitor. Nullam eleifend mi magna, in congue massa varius nec. Pellentesque iaculis nisi quis tincidunt consectetur.
+                  A video or film is a powerful way to bring your life story to life.
+                  It’s a chance to get together with family, reminisce about the past, and celebrate the moments that have shaped your journey.
+                  These captured memories become timeless treasures for future generations to enjoy.
+
                 </span>
 
                 <span class="d-block w-100 px-5 pt-5 pb-8 pe-lg-9">
 
-                  per inceptos
+                  Film can bring a life story to light
 
                 </span>
 
@@ -544,7 +548,7 @@
 
           <p class="h-100 d-flex justify-content-center align-items-center p-8">
 
-            Consectetur adipiscing elit, sed do eiusmod.
+            Caring for every step
 
           </p>
 
@@ -554,7 +558,7 @@
 
           <p class="h-100 d-flex justify-content-center align-items-center p-8">
 
-            Lorem ipsum dolor sit amet, consectetur.
+            We take the time to listen
 
           </p>
 
@@ -564,7 +568,7 @@
 
           <p class="h-100 d-flex justify-content-center align-items-center p-8">
 
-            Sed do ipiscing eli eiusmod sit amet tempor.
+            Supportive experience
 
           </p>
 
@@ -590,7 +594,8 @@
 
                     <p class="m-0">
 
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat, leo ac varius ullamcorper, lacus purus venenatis ex, eget dictum est turpis sit amet nisl. Ut vulputate lorem at justo ornare imperdiet. Suspendisse potenti. Aenean at viverra purus, in laoreet purus.
+                      We offer a supportive experience that gently guides you through the process of telling your life story with ease and comfort.
+                      From the first conversation to the final film, we’re here to help you share your memories.
 
                     </p>
 
