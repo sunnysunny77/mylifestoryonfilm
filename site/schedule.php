@@ -7,7 +7,7 @@
   <meta name="keywords" content="Share your memories, Get together, Video, Film, Family, Life Story, Exchange stories, Reminisce" />
   <meta name="author" content="D.C" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Life Story On Film</title>
+  <title>My Life Story On Film - Schedule Consultation</title>
   <link href="./css/app.min.css" rel="stylesheet" type="text/css" />
   <link rel="manifest" href="manifest.json" />
   <link rel="apple-touch-icon" href="images/pwa-logo-small.webp" />
