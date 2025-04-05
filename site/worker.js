@@ -30,6 +30,8 @@ const resources = [
   "./images/nature.webp",
   "./images/dancing.webp",
   "./images/park.webp",
+  "./images/play.webp",
+  "./images/pause.webp",
   "./video/sample.mp4",
   "./fallback.php"
 ];
@@ -89,11 +91,14 @@ const stale = async (req) => {
     
     console.log(error);
     
-    const fallback = await caches.match("./fallback.php");
-      
-    if (fallback) {
+    if (req.mode === "navigate") {
 
-      return fallback;
+      const fallback = await caches.match("./fallback.php");
+
+      if (fallback) {
+
+        return fallback;
+      }
     }
 
     return new Response("Network error happened", {

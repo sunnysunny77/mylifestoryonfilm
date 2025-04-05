@@ -93,7 +93,7 @@ export const form = () => {
 
         if (text) {
 
-        reply.innerHTML = text;
+          reply.innerHTML = text;
         }
 
     } catch (error) {
