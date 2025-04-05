@@ -390,7 +390,7 @@
 
                               ?>
 
-                                <div class="col-43 col-sm-48">
+                                <div class="col-47">
 
                                   <div class="d-flex mt-3">
 
