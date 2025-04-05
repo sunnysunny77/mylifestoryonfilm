@@ -1,3 +1,88 @@
+<?php
+
+  // view logic
+
+  $array = [
+    [
+      "title" => "CHILDHOOD & FAMILY LIFE",
+      "question" => ["Describe the home you grew up in",
+        "What were you like as a child",
+        "Do you have memories of what your parents said you were like as a baby",
+        "What was a typical day like in your family when you were little",
+        "What would you say makes your family unique from other families",
+        "What did you do when you were bored as a child",
+        "If you had to create a family motto, what would it be",
+        "How did you feel about school, and what type of student were you",
+        "Did you have a best friend, and if so, how did that relationship play out over the course of your life",
+        "What do you want to be when yougrow up",
+        "What were you like as a teenager",
+      ],
+    ],
+    [
+      "title" => "FUN & GAMES",
+      "question" => ["What songs have held special meaning to you over the years",
+        "Who was the trickster in your family",
+        "Do you have any funny stories from your past",
+        "What's your favorite family story to recount around the dinner table",
+        "Did you play sports growing up, and if so, what were those experiences like",
+        "What was the main form of entertainment in your family when you were a kid",
+        "Describe what family vacations were like, and if there were any destinations that you traveled to often",
+        "Tell me about a time you were incredibly embarrassed",
+      ],
+    ],
+    [
+      "title" => "TRADITIONS",
+      "question" => ["What holiday did you most look forward to while you were growing up",
+        "What were some of the traditions your family observed related to that holiday",
+        "Do you have any family traditions that have been passed down for generations in your family",
+        "Does religion hold a strong place in your family",
+        "What is the most memorable gift you have ever received, or given",
+        "Are there any specific family heirlooms you inherited",
+        "How are/were birthdays celebrated throughout your life",
+        "In what ways have you/your family kept your culture alive",
+      ],
+    ],
+    [
+      "title" => "DECISIONS & LESSONS",
+      "question" => ["What is the best decision you ever made",
+        "What is a memorable time you have failed, and how did you recover from that experience",
+        "What lessons(s) do you most recall learning from your parents or grandparents",
+        "Did you have a favorite teacher or another role model who had a major impact on your life",
+        "Can you share about any hardships",
+        "Tell me about a significant time you said no",
+        "Do you have any regrets",
+      ],
+    ],
+    [
+      "title" => "LIFE TRANSITION & MILESTONES",
+      "question" => ["Tell me about your experience, deciding where to go to college, pursuing your career, getting married, getting drafted into the war, serving in the military, becoming a mother/father/grandparent, falling in love for the first time",
+        "Tell me about your first job",
+        "Did anyone ever throw you a surprise party",
+        "How did you feel on your wedding day. What memories of that day stand out for you",
+        "What can you tell me about the first time you experienced loss. Who died. Did you go to the funeral. How old were you. How did it effect your outlook on life",
+      ],
+    ],
+    [
+      "title" => "FOOD MEMORIES",
+      "question" => ["What meals would be in your family's cookbook—the foods that make you feel nostalgic for your childhood or for home",
+        "What are your oldest recipes and where did they come from",
+        "What smells transport you to this day right back to your childhood",
+        "Who are/were the best cooks in the family",
+        "What family dishes would you miss the most if you never tasted them again",
+      ],
+    ],
+    [
+      "title" => "BIG-PICTURE",
+      "question" => ["What values would you like to pass down to the younger generations of your family",
+        "How did you learn resilience",
+        "What would you tell your 20-year-old self",
+        "Are there any questions you wish you had asked your own parents",
+      ],
+    ],
+  ];
+
+?>
+
 <!DOCTYPE html>
 <html lang="en" data-overlayscrollbars-initialize>
 <head>
@@ -232,6 +317,130 @@
   </header>
 
   <main class="py-11 py-md-13">
+
+    <?php
+
+      if (count($array) > 0) {
+
+        ?>
+
+          <div class="row q-a justify-content-center mb-8 mb-md-11">
+
+            <div class="col-39 col-sm-41 col-xxl-36">
+
+              <div class="row color-bravo justify-content-center justify-content-sm-start">
+
+                <div class="col-48 col-sm-43 col-md-39 col-xxl-35">
+
+                  <h2 class="mb-0 ms-1">
+
+                    <span class="heading-inner bg-alpha-1 me-1 mb-1"></span>
+
+                    Case Questions
+
+                  </h2>
+
+                  <p class=" mb-6 mt-7 my-sm-9 px-3 sub-heading">
+
+                    As part of our process, we ask thoughtful, guided questions to provide depth and context to your film.
+                    These questions are designed to help you share your memories, reflect on meaningful moments, and exchange stories that bring your life story to life.
+
+                  <p>
+
+                </div>
+
+                <?php
+
+                  foreach ($array as $index=>$row) {
+
+                    $even = "ps-sm-7 ps-lg-9";
+
+                    if ($index % 2 === 0) {
+
+                      $even = "pe-sm-7 pe-lg-9";
+                    }
+
+                    ?>
+
+                      <div class="col-48 col-sm-24 <?php echo $even; ?>">
+
+                        <div class="row justify-content-center justify-content-sm-start mb-8 mb-sm-10">
+
+                          <div class="col-48 col-xl-32">
+
+                            <hr class="mb-7 alpha-border-top">
+
+                          </div>
+
+                          <div class="col-48 mb-3">
+
+                            <h2 class="mb-2 ms-1">
+
+                              <span class="heading-inner bg-alpha-1 me-1 mb-1"></span>
+
+                              <?php echo $row["title"];  ?>
+
+                            </h2>
+
+                          </div>
+
+                          <?php
+
+                            foreach ($row["question"] as $row) {
+
+                              ?>
+
+                                <div class="col-43 col-sm-48">
+
+                                  <div class="d-flex mt-3">
+
+                                    <div>
+
+                                      <i class="fa-solid fa-circle-question color-echo me-5 ms-2"></i>
+
+                                    </div>
+
+                                    <div class="flex-fill">
+
+                                      <p class="m-0">
+
+                                        <?php echo $row; ?>
+
+                                      </p>
+
+                                    </div>
+
+                                  </div>
+
+                                </div>
+
+                              <?php
+
+                            }
+
+                          ?>
+
+                        </div>
+
+                      </div>
+
+                    <?php
+
+                  }
+
+                ?>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        <?php
+
+      }
+
+    ?>
 
     <div data-aos="fade-up" class="container-sm cta">
 

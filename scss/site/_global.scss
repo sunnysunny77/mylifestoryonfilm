@@ -32,10 +32,23 @@ body {
     border-top: 1.5px solid $bravo;
 }
 
+.alpha-border-top {
+    border-top: 1.5px solid $alpha;
+    opacity: 0.75;
+}
+
 // color
 
 .color-alpha-2 {
     color: $alpha-2;
+}
+
+.color-bravo {
+    color: $bravo;
+}
+
+.color-echo {
+    color: $echo;
 }
 
 // background
