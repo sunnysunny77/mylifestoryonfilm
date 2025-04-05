@@ -4,11 +4,14 @@ const cacheName = `mylifestoryonfilm-v${version}`;
 const resources = [
   "./",
   "./index.php",
+  "./schedule.php",
+  "./information.php",
   "./favicon.ico",
   "./manifest.json",
   "./css/app.min.css",
   "./js/app.min.js",
   "./js/preload.js",
+  "./font/NunitoSans.ttf",
   "./font/Poppins-Black.ttf",
   "./font/Poppins-Bold.ttf",
   "./font/Poppins-ExtraBold.ttf",
@@ -23,6 +26,11 @@ const resources = [
   "./webfonts/fa-solid-900.woff2",
   "./images/pwa-logo-small.webp",
   "./images/pwa-logo.webp",
+  "./images/grandparents-kids.webp",
+  "./images/nature.webp",
+  "./images/dancing.webp",
+  "./images/park.webp",
+  "./video/sample.mp4",
   "./fallback.php"
 ];
 

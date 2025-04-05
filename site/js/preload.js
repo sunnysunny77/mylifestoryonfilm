@@ -12,6 +12,7 @@ const preload = (href, as) => {
 const path = location.pathname;
 
 const fonts = [
+  "./font/NunitoSans.ttf",
   "./font/Poppins-Black.ttf",
   "./font/Poppins-Bold.ttf",
   "./font/Poppins-ExtraBold.ttf",
