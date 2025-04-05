@@ -21,7 +21,7 @@
 
     <span class="hidden">Open menu</span>
 
-    <div>
+    <div class="slider_nav-bar-container">
 
         <div class="slider_nav-bar slider_nav-bar-1"></div>
         <div class="slider_nav-bar slider_nav-bar-2"></div>
@@ -41,7 +41,7 @@
 
           <span class="hidden">Close menu</span>
 
-          <div>
+          <div class="slider_nav-bar-container">
 
             <div class="slider_nav-bar slider_nav-bar-1"></div>
             <div class="slider_nav-bar slider_nav-bar-2"></div>
