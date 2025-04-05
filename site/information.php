@@ -332,7 +332,7 @@
 
                 <div class="col-48 col-sm-43 col-md-39 col-xxl-35">
 
-                  <h2 class="mb-0 ms-1">
+                  <h2 data-aos="fade-right" class="mb-0 ms-1">
 
                     <span class="heading-inner bg-alpha-1 me-1 mb-1"></span>
 
@@ -340,7 +340,7 @@
 
                   </h2>
 
-                  <p class=" mb-6 mt-7 my-sm-9 px-3 sub-heading">
+                  <p data-aos="fade-up" class=" mb-6 mt-7 my-sm-9 px-3 sub-heading">
 
                     As part of our process, we ask thoughtful, guided questions to provide depth and context to your film.
                     These questions are designed to help you share your memories, reflect on meaningful moments, and exchange stories that bring your life story to life.
@@ -362,7 +362,7 @@
 
                     ?>
 
-                      <div class="col-48 col-sm-24 <?php echo $even; ?>">
+                      <div data-aos="fade-up" class="col-48 col-sm-24 <?php echo $even; ?>">
 
                         <div class="row justify-content-center justify-content-sm-start mb-8 mb-sm-10">
 
