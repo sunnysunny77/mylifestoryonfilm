@@ -32,7 +32,7 @@ const resources = [
   "./images/park.webp",
   "./images/play.webp",
   "./images/pause.webp",
-  "./video/sample.mp4",
+  "./video/sample.webm",
   "./fallback.php"
 ];
 

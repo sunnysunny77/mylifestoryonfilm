@@ -396,6 +396,8 @@
 
               <video poster="./images/park.webp" preload="auto" class="play" playsinline>
 
+                <source src="./video/sample.webm" type="video/webm">
+
                 <source src="./video/sample.mp4" type="video/mp4">
 
               </video>
