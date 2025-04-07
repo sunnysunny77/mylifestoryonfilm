@@ -147,7 +147,7 @@ self.addEventListener("fetch", (event) => {
   console.log("Fetching via Service worker");
 
   if (event.request.destination === "video") {
-    
+
     event.respondWith(video(event.request));
   } else {
 
