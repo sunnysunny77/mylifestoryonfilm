@@ -107,9 +107,50 @@ const stale = async (req) => {
   }
 };
 
+const video_add = async (req) => {
+
+  const cache = await caches.open(cacheName);
+  cache.add(req.url);
+};
+
+const video = async (req) => {
+ 
+  try {
+
+    const cache = await caches.open(cacheName);
+    const match = await cache.match(req);
+
+    if (match) {
+
+      return match;
+    }
+
+    video_add(req);
+
+    const res = await fetch(req);
+
+    return res;
+
+  } catch (error) {
+
+    console.log(error);
+    
+    return new Response("Network error happened", {
+      status: 408,
+      headers: { "Content-Type": "text/plain" },
+    });
+  }
+};
+
 self.addEventListener("fetch", (event) => {
 
   console.log("Fetching via Service worker");
 
-  event.respondWith(stale(event.request));
+  if (event.request.destination === "video") {
+    
+    event.respondWith(video(event.request));
+  } else {
+
+    event.respondWith(stale(event.request));
+  }
 });
