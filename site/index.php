@@ -13,11 +13,11 @@
   <link rel="apple-touch-icon" href="images/pwa-logo-small.webp" />
 </head>
 
-<body>
+<body data-overlayscrollbars-initialize>
 
   <a accesskey="s" href="#skip"><span class="hidden">Skip Navigation</span></a>
 
-  <button data-aos="fade-right" aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-full p-5">
+  <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-full scrolled-init right p-5">
 
     <span class="hidden">Open menu</span>
 
@@ -183,7 +183,7 @@
 
             <div class="row h-100 align-items-lg-center">
 
-              <div data-aos="fade-left" data-aos-offset="-800" class="col-42">
+              <div class="col-42 scrolled-init left-small">
 
                 <h1 id="skip" class="text-end mb-1 mb-lg-3 ps-6 ps-sm-0 pt-lg-9">
 
@@ -209,7 +209,7 @@
 
               </div>
 
-              <div data-aos="fade-left" data-aos-offset="-800" class="col-48 mb-md-9 mb-lg-0">
+              <div class="col-48 scrolled-init left-small mb-md-9 mb-lg-0">
 
                 <div class="row justify-content-center">
 
@@ -243,7 +243,7 @@
 
               </div>
 
-              <div data-aos="fade-up" data-aos-offset="-800" class="d-none d-lg-block col-48 align-self-end echo-border mt-11">
+              <div class="col-48 align-self-end echo-border scrolled-init up-fixed hidden-scroll-lg mt-11">
 
                   <div class="d-flex">
 
@@ -267,7 +267,7 @@
 
           </div>
 
-          <div data-aos="fade-up" data-aos-offset="-800" class="col-48 col-lg-20 cta header-brochour-cta justify-content-center position-relative mt-15 mt-sm-16 mt-lg-0">
+          <div class="col-48 col-lg-20 cta header-brochour-cta justify-content-center position-relative scrolled-init up-fixed mt-15 mt-sm-16 mt-lg-0">
 
             <a href="./schedule.php">
 
@@ -328,7 +328,7 @@
 
         </div>
 
-        <div data-aos="fade-up" class="col-48 flex-fill">
+        <div class="col-48 flex-fill scrolled-init up-fixed">
 
           <div class="row h-100 justify-content-center align-items-center">
 
@@ -356,7 +356,7 @@
 
   <main class="pb-11 pb-md-13">
 
-    <div data-aos="fade-up" class="container-sm text-video">
+    <div class="container-sm text-video scrolled-init up">
 
       <div class="row justify-content-center">
 
@@ -422,11 +422,11 @@
 
     <div id="process" class="slider_2-outer container-sm mt-2 mt-md-9">
 
-      <div data-aos="fade-up" class="row">
+      <div class="row scrolled-init up">
 
         <div class="col-39 col-sm-48 mx-auto">
 
-          <h2 data-aos="fade-right" class="ms-xl-10 mb-9 mb-md-7">
+          <h2 class="scrolled-init right ms-xl-10 mb-9 mb-md-7">
 
           <span class="heading-inner bg-alpha-1 me-1 mb-1"></span>
 
@@ -542,7 +542,7 @@
 
     </div>
 
-    <div data-aos="fade-up" id="three-col-box" class="container-sm mt-md-12">
+    <div id="three-col-box" class="container-sm scrolled-init up mt-md-12">
 
       <div class="row justify-content-center justify-content-md-between text-center">
 
@@ -580,7 +580,7 @@
 
     </div>
 
-    <div data-aos="fade-up" class="container-sm cta mt-11 mt-md-13">
+    <div class="container-sm cta scrolled-init up mt-11 mt-md-13">
 
       <a href="./information.php">
 

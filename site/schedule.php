@@ -13,7 +13,7 @@
   <link rel="apple-touch-icon" href="images/pwa-logo-small.webp" />
 </head>
 
-<body>
+<body data-overlayscrollbars-initialize>
 
   <a accesskey="s" href="#skip"><span class="hidden">Skip Navigation</span></a>
 
@@ -161,7 +161,7 @@
 
     <div class="d-flex flex-wrap justify-content-between align-items-start">
 
-      <button data-aos="fade-right" aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-small p-5">
+      <button aria-controls="navbar-collapse" class="slider_nav-navbar-toggler navbar-toggler navbar-toggler-small scrolled-init right p-5">
 
         <span class="hidden">Open menu</span>
 
@@ -233,7 +233,7 @@
 
   <main class="py-11 py-md-13">
 
-    <div data-aos="fade-up" class="row form justify-content-center align-items-stretch">
+    <div class="row form justify-content-center align-items-stretch scrolled-init up-fixed">
 
       <div class="col-39 col-xxl-32">
 
@@ -435,7 +435,7 @@
 
     </div>
 
-    <div data-aos="fade-up" class="row cta justify-content-center mt-11 mt-md-13">
+    <div class="row cta justify-content-center scrolled-init up mt-11 mt-md-13">
 
       <div class="col-39 col-xxl-32">
 

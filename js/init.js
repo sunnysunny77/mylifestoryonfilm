@@ -1,9 +1,6 @@
 import { OverlayScrollbars } from "overlayscrollbars";
-import AOS from "aos";
 
-export const init = () => {
-
-  const navbar_collapse = document.querySelector(".navbar-collapse");
+const overlay = () => {
 
   window.osInst = OverlayScrollbars(document.body, {
     overflow: {
@@ -14,12 +11,26 @@ export const init = () => {
       theme: "os-theme-body",
     },
   });
+};
 
-  AOS.init({
-    once: true,
+const scrolled = (obj, options) => {
+
+  const observer = new IntersectionObserver((entries, observer)=>{
+
+    entries.filter(index=> index.isIntersecting).forEach(index => {
+
+      index.target.classList.add("scrolled");
+      observer.unobserve(index.target);
+    });
+  },options);
+
+  obj.forEach(index => {
+
+    observer.observe(index);
   });
+};
 
-  navbar_collapse.classList.add("has-js");
+const hash = () => {
 
   const hash = location.hash;
 
@@ -32,4 +43,12 @@ export const init = () => {
         path.scrollIntoView({ behavior: "smooth" });
     };
   };
+};
+
+export const init = () => {
+
+  scrolled(document.querySelectorAll(".scrolled-init"));
+  overlay();
+  hash();
+  document.querySelector(".navbar-collapse").classList.add("has-js");
 };
