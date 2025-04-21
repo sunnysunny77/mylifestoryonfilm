@@ -29,7 +29,10 @@
     }
     &.left-small {
         opacity: 0;
-        transform: translateX(6.7%);
+        transform: translateX(22%);
+        @include min_lg {
+            transform: translateX(6.7%);
+        }
     }
 }
 
@@ -78,7 +81,7 @@
 @keyframes scrolled-left-small {
     0% {
         opacity: 0;
-        transform: translateX(6.7%);
+        transform: translateX(22%);
     }
     50% {
         opacity: 0.88;
@@ -86,6 +89,22 @@
     100% {
         opacity: 1;
         transform: translateX(0px);
+    }
+}
+
+@include min_lg {
+    @keyframes scrolled-left-small {
+        0% {
+            opacity: 0;
+            transform: translateX(6.7%);
+        }
+        50% {
+            opacity: 0.88;
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0px);
+        }
     }
 }
 
