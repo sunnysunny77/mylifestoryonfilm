@@ -209,13 +209,13 @@
 
               </div>
 
-              <div class="col-48 scrolled-init left-small mb-md-9 mb-lg-0">
+              <div class="col-48 mb-md-9 mb-lg-0">
 
                 <div class="row justify-content-center">
 
                   <div class="col-42 col-lg-40 pb-lg-9">
 
-                    <div class="row justify-content-between">
+                    <div class="row justify-content-between scrolled-init left-small">
 
                       <div class="col-14 alpha-border p-2 p-xl-3">
 
