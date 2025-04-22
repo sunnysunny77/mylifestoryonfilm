@@ -76,7 +76,10 @@ body {
 // scrollbar
 
 .os-theme-body {
-    --os-size: 7px;
+    --os-size: 4px;
+    @include min_lg {
+        --os-size: 7px;
+    }
     &.has-right {
         z-index: 997;
     }
