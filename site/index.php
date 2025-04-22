@@ -542,9 +542,9 @@
 
     </div>
 
-    <div id="three-col-box" class="container-sm scrolled-init up mt-md-12">
+    <div id="three-col-box" class="container-sm mt-md-12">
 
-      <div class="row justify-content-center justify-content-md-between text-center">
+      <div class="row justify-content-center justify-content-md-between scrolled-init up text-center">
 
         <div class="col-39 col-sm-48 col-md-14 mt-12 mt-md-0">
 
