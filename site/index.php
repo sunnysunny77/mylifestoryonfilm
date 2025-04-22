@@ -183,7 +183,7 @@
 
             <div class="row h-100 align-items-lg-center">
 
-              <div class="col-42 scrolled-init left-small">
+              <div class="col-42 scrolled-init-offset left-small">
 
                 <h1 id="skip" class="text-end mb-1 mb-lg-3 ps-6 ps-sm-0 pt-lg-9">
 
@@ -215,7 +215,7 @@
 
                   <div class="col-42 col-lg-40 pb-lg-9">
 
-                    <div class="row justify-content-between scrolled-init left-small">
+                    <div class="row justify-content-between scrolled-init-offset left-small">
 
                       <div class="col-14 alpha-border p-2 p-xl-3">
 
@@ -243,7 +243,7 @@
 
               </div>
 
-              <div class="col-48 align-self-end echo-border scrolled-init up-fixed hidden-scroll-lg mt-11">
+              <div class="col-48 align-self-end echo-border scrolled-init-offset up-fixed hidden-scroll-lg mt-11">
 
                   <div class="d-flex">
 
@@ -267,7 +267,7 @@
 
           </div>
 
-          <div class="col-48 col-lg-20 cta header-brochour-cta justify-content-center position-relative scrolled-init up-fixed mt-15 mt-sm-16 mt-lg-0">
+          <div class="col-48 col-lg-20 cta header-brochour-cta justify-content-center position-relative scrolled-init-offset up-fixed mt-15 mt-sm-16 mt-lg-0">
 
             <a href="./schedule.php">
 
