@@ -364,7 +364,7 @@
 
                       <div class="col-48 col-sm-24 scrolled-init up <?php echo $even; ?>">
 
-                        <div class="row justify-content-center justify-content-sm-start mb-8 mb-sm-10">
+                        <div class="row justify-content-start justify-content-sm-start mb-8 mb-sm-10">
 
                           <div class="col-48 col-xl-32">
 
