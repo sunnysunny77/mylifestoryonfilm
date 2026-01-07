@@ -334,7 +334,7 @@
 
             <div class="col-36 col-xl-24">
 
-              <h2 class="text-center py-11 py-md-13 py-lg-12">
+              <h2 class="lower-heading text-center py-11 py-md-13 py-lg-12">
 
                 <span class="heading-inner bg-alpha-1 me-1 mb-1"></span>
 
@@ -420,9 +420,9 @@
 
     </div>
 
-    <div id="process" class="slider_2-outer container-sm mt-2 mt-md-9">
+    <div id="process" class="slider_2-outer container-sm mt-2 mt-md-9 scrolled-init up">
 
-      <div class="row scrolled-init up">
+      <div class="row">
 
         <div class="col-39 col-sm-48 mx-auto">
 
